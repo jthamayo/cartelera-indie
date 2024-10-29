@@ -2,14 +2,223 @@
   "games": [
     {
       "id": 1,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1715722799",
+      "title": "Hades",
+      "developer": "Supergiant Games",
+      "publisher": "Supergiant Games",
+      "year": "2020",
+      "length": "22 hours",
+      "rating": "9.5/10",
+      "earnings": "$20 million"
+    },
+    {
+      "id": 2,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
+      "title": "Celeste",
+      "developer": "Maddy Makes Games",
+      "publisher": "Maddy Makes Games",
+      "year": "2018",
+      "length": "8 hours",
+      "rating": "9.0/10",
+      "earnings": "$10 million"
+    },
+    {
+      "id": 3,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg?t=1695270428",
+      "title": "Hollow Knight",
+      "developer": "Team Cherry",
+      "publisher": "Team Cherry",
+      "year": "2017",
+      "length": "25 hours",
+      "rating": "9.7/10",
+      "earnings": "$50 million"
+    },
+    {
+      "id": 4,
       "poster": "",
-      "title": "",
-      "developer": "",
-      "publisher": "",
-      "year": "",
-      "length": "",
-      "rating": "",
-      "earnings": ""
+      "title": "Undertale",
+      "developer": "Toby Fox",
+      "publisher": "Toby Fox",
+      "year": "2015",
+      "length": "6 hours",
+      "rating": "9.8/10",
+      "earnings": "$15 million"
+    },
+    {
+      "id": 5,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/224760/header.jpg?t=1572375251",
+      "title": "Fez",
+      "developer": "Polytron Corporation",
+      "publisher": "Polytron Corporation",
+      "year": "2012",
+      "length": "10 hours",
+      "rating": "8.5/10",
+      "earnings": "$2 million"
+    },
+    {
+      "id": 6,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/48000/header.jpg?t=1726749481",
+      "title": "Limbo",
+      "developer": "Playdead",
+      "publisher": "Playdead",
+      "year": "2010",
+      "length": "4 hours",
+      "rating": "9.0/10",
+      "earnings": "$10 million"
+    },
+    {
+      "id": 7,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/304430/header.jpg?t=1729847839",
+      "title": "Inside",
+      "developer": "Playdead",
+      "publisher": "Playdead",
+      "year": "2016",
+      "length": "3.5 hours",
+      "rating": "9.3/10",
+      "earnings": "$12 million"
+    },
+    {
+      "id": 8,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg?t=1709068852",
+      "title": "Cuphead",
+      "developer": "Studio MDHR",
+      "publisher": "Studio MDHR",
+      "year": "2017",
+      "length": "11 hours",
+      "rating": "9.2/10",
+      "earnings": "$21 million"
+    },
+    {
+      "id": 9,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg?t=1728642519",
+      "title": "Slay the Spire",
+      "developer": "MegaCrit",
+      "publisher": "Humble Games",
+      "year": "2019",
+      "length": "15 hours",
+      "rating": "9.4/10",
+      "earnings": "$16 million"
+    },
+    {
+      "id": 10,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/388880/header.jpg?t=1718924110",
+      "title": "Oxenfree",
+      "developer": "Night School Studio",
+      "publisher": "Night School Studio",
+      "year": "2016",
+      "length": "5 hours",
+      "rating": "8.8/10",
+      "earnings": "$2.5 million"
+    }, {
+      "id": 11,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553420/header.jpg?t=1719583787",
+      "title": "Tunic",
+      "developer": "Andrew Shouldice",
+      "publisher": "Finji",
+      "year": "2022",
+      "length": "12 hours",
+      "rating": "9.0/10",
+      "earnings": "$5 million"
+    },
+    {
+      "id": 12,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/210970/header.jpg?t=1720810823",
+      "title": "The Witness",
+      "developer": "Jonathan Blow",
+      "publisher": "Thekla, Inc.",
+      "year": "2016",
+      "length": "25 hours",
+      "rating": "8.9/10",
+      "earnings": "$6 million"
+    },
+    {
+      "id": 13,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/638230/header.jpg?t=1729099361",
+      "title": "Journey",
+      "developer": "Thatgamecompany",
+      "publisher": "Sony Computer Entertainment",
+      "year": "2012",
+      "length": "2 hours",
+      "rating": "9.4/10",
+      "earnings": "$10 million"
+    },
+    {
+      "id": 14,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/638230/header.jpg?t=1729099361",
+      "title": "Blasphemous",
+      "developer": "The Game Kitchen",
+      "publisher": "Team17",
+      "year": "2019",
+      "length": "12 hours",
+      "rating": "8.7/10",
+      "earnings": "$3 million"
+    },
+    {
+      "id": 15,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg?t=1729097431",
+      "title": "Outer Wilds",
+      "developer": "Mobius Digital",
+      "publisher": "Annapurna Interactive",
+      "year": "2019",
+      "length": "16 hours",
+      "rating": "9.6/10",
+      "earnings": "$8 million"
+    },
+    {
+      "id": 16,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2198150/header.jpg?t=1727471389",
+      "title": "Tiny Glade",
+      "developer": "Pinecoon",
+      "publisher": "Pinecoon",
+      "year": "2024",
+      "length": "3-5 hours",
+      "rating": "8.8/10",
+      "earnings": "TBD"
+    },
+    {
+      "id": 17,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1711128146",
+      "title": "Stardew Valley",
+      "developer": "ConcernedApe",
+      "publisher": "ConcernedApe",
+      "year": "2016",
+      "length": "50+ hours",
+      "rating": "9.6/10",
+      "earnings": "$50 million"
+    },
+    {
+      "id": 18,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1728690313",
+      "title": "Gris",
+      "developer": "Nomada Studio",
+      "publisher": "Devolver Digital",
+      "year": "2018",
+      "length": "4-5 hours",
+      "rating": "9.0/10",
+      "earnings": "$2 million"
+    },
+    {
+      "id": 19,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1092790/header.jpg?t=1728947770",
+      "title": "Inscryption",
+      "developer": "Daniel Mullins Games",
+      "publisher": "Devolver Digital",
+      "year": "2021",
+      "length": "12-15 hours",
+      "rating": "9.3/10",
+      "earnings": "$4 million"
+    },
+    {
+      "id": 20,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg?t=1701967625",
+      "title": "Ori and the Will of the Wisps",
+      "developer": "Moon Studios",
+      "publisher": "Xbox Game Studios",
+      "year": "2020",
+      "length": "11-12 hours",
+      "rating": "9.5/10",
+      "earnings": "$10 million"
     }
   ]
 }
+
