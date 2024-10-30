@@ -6,28 +6,25 @@ async function fetchGames() {
   return games;
 }
 
-fetchGames().then(indie => {
-  for (let index = 0; index < indie.games.length; index++) {
-    const gamesSection = document.getElementById('gamesSection');
-    
-    let id = indie.games[index].id;
-    let poster = indie.games[index].poster;
-    let title = indie.games[index].title;
-    let year = indie.games[index].year;
-    let length = indie.games[index].length;
-    let developer = indie.games[index].developer;
-    let earnings = indie.games[index].earnings;
+fetchGames().then((indie) => {
+  const gamesSection = document.getElementById("gamesSection");
+  let rowContent = "";
 
-    gamesSection.innerHTML += `
-      <div class="card mb-4" style="width: 18rem;">
-        <img src="${poster}" class="card-img-top" alt="game poster">
-        <div class="card-body">
-          <h5 class="card-title">${title}</h5>
-          <p class="card-title"><span class="h6">${year}</span> · ${length}</p>
-          <h6 class="card-title mb-4">${developer}</h6>
-          <p class="card-title">${earnings}</p>
+  indie.games.forEach((game, index) => {
+    let card = `
+      <div class="col">
+        <div class="card m-2" style="width: 100%;">
+          <img src="${game.poster}" class="" alt="game poster">
         </div>
       </div>
     `;
-  }
+
+    rowContent += card;
+
+    if ((index + 1) % 3 === 0 || index === indie.games.length - 1) {
+      gamesSection.innerHTML += `<div class="row row-cols-1 row-cols-md-3">${rowContent}</div>`;
+      rowContent = "";
+    }
+
+  });
 });
