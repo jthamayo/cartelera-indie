@@ -12,8 +12,8 @@ fetchGames().then((indie) => {
 
   indie.games.forEach((game, index) => {
     let card = `
-      <div class="col">
-        <div class="card m-2" style="width: 100%;">
+      <div class="col pb-4">
+        <div class="card border-0 bg-dark style="width: 100%;">
           <img src="${game.poster}" class="rounded" alt="${game.title} banner">
         </div>
       </div>
@@ -25,6 +25,5 @@ fetchGames().then((indie) => {
       gamesSection.innerHTML += `<div class="row row-cols-1 row-cols-md-3">${rowContent}</div>`;
       rowContent = "";
     }
-
   });
 });
