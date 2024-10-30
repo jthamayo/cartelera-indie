@@ -14,7 +14,7 @@ fetchGames().then((indie) => {
     let card = `
       <div class="col">
         <div class="card m-2" style="width: 100%;">
-          <img src="${game.poster}" class="" alt="game poster">
+          <img src="${game.poster}" class="rounded" alt="${game.title} banner">
         </div>
       </div>
     `;
