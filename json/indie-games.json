@@ -9,7 +9,10 @@
       "year": "2020",
       "length": "22 hours",
       "rating": "9.5/10",
-      "earnings": "$20 million"
+      "revenue": "$20 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 2,
@@ -20,7 +23,10 @@
       "year": "2018",
       "length": "8 hours",
       "rating": "9.0/10",
-      "earnings": "$10 million"
+      "revenue": "$10 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 3,
@@ -31,7 +37,10 @@
       "year": "2017",
       "length": "25 hours",
       "rating": "9.7/10",
-      "earnings": "$50 million"
+      "revenue": "$50 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 4,
@@ -42,7 +51,10 @@
       "year": "2015",
       "length": "6 hours",
       "rating": "9.8/10",
-      "earnings": "$15 million"
+      "revenue": "$15 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 5,
@@ -53,7 +65,10 @@
       "year": "2012",
       "length": "10 hours",
       "rating": "8.5/10",
-      "earnings": "$2 million"
+      "revenue": "$2 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 6,
@@ -64,7 +79,10 @@
       "year": "2010",
       "length": "4 hours",
       "rating": "9.0/10",
-      "earnings": "$10 million"
+      "revenue": "$10 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 7,
@@ -75,7 +93,10 @@
       "year": "2016",
       "length": "3.5 hours",
       "rating": "9.3/10",
-      "earnings": "$12 million"
+      "revenue": "$12 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 8,
@@ -86,7 +107,10 @@
       "year": "2017",
       "length": "11 hours",
       "rating": "9.2/10",
-      "earnings": "$21 million"
+      "revenue": "$21 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 9,
@@ -97,7 +121,10 @@
       "year": "2019",
       "length": "15 hours",
       "rating": "9.4/10",
-      "earnings": "$16 million"
+      "revenue": "$16 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 10,
@@ -108,8 +135,12 @@
       "year": "2016",
       "length": "5 hours",
       "rating": "8.8/10",
-      "earnings": "$2.5 million"
-    }, {
+      "revenue": "$2.5 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
       "id": 11,
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553420/header.jpg?t=1719583787",
       "title": "Tunic",
@@ -118,7 +149,10 @@
       "year": "2022",
       "length": "12 hours",
       "rating": "9.0/10",
-      "earnings": "$5 million"
+      "revenue": "$5 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 12,
@@ -129,7 +163,10 @@
       "year": "2016",
       "length": "25 hours",
       "rating": "8.9/10",
-      "earnings": "$6 million"
+      "revenue": "$6 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 13,
@@ -140,7 +177,10 @@
       "year": "2012",
       "length": "2 hours",
       "rating": "9.4/10",
-      "earnings": "$10 million"
+      "revenue": "$10 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 14,
@@ -151,7 +191,10 @@
       "year": "2019",
       "length": "12 hours",
       "rating": "8.7/10",
-      "earnings": "$3 million"
+      "revenue": "$3 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 15,
@@ -162,7 +205,10 @@
       "year": "2019",
       "length": "16 hours",
       "rating": "9.6/10",
-      "earnings": "$8 million"
+      "revenue": "$8 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 16,
@@ -173,7 +219,10 @@
       "year": "2024",
       "length": "3-5 hours",
       "rating": "8.8/10",
-      "earnings": "TBD"
+      "revenue": "TBD",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 17,
@@ -184,7 +233,10 @@
       "year": "2016",
       "length": "50+ hours",
       "rating": "9.6/10",
-      "earnings": "$50 million"
+      "revenue": "$50 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 18,
@@ -195,7 +247,10 @@
       "year": "2018",
       "length": "4-5 hours",
       "rating": "9.0/10",
-      "earnings": "$2 million"
+      "revenue": "$2 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 19,
@@ -206,7 +261,10 @@
       "year": "2021",
       "length": "12-15 hours",
       "rating": "9.3/10",
-      "earnings": "$4 million"
+      "revenue": "$4 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     },
     {
       "id": 20,
@@ -217,8 +275,276 @@
       "year": "2020",
       "length": "11-12 hours",
       "rating": "9.5/10",
-      "earnings": "$10 million"
+      "revenue": "$10 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 21,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/813230/header.jpg?t=1716414146",
+      "title": "Animal Well",
+      "developer": "Shared Memory",
+      "publisher": "Bigmode",
+      "year": "TBA",
+      "length": "Unknown",
+      "rating": "Pending",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 22,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/219150/header.jpg?t=1686261983v",
+      "title": "Hotline Miami",
+      "developer": "Dennaton Games",
+      "publisher": "Devolver Digital",
+      "year": "2012",
+      "length": "5-6 hours",
+      "rating": "8.8/10",
+      "revenue": "Over $5 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 23,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1262350/header.jpg?t=1704064951",
+      "title": "Signalis",
+      "developer": "rose-engine",
+      "publisher": "Humble Games",
+      "year": "2022",
+      "length": "10-12 hours",
+      "rating": "9/10",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 24,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1722458438",
+      "title": "The Binding of Isaac",
+      "developer": "Edmund McMillen",
+      "publisher": "Headup Games",
+      "year": "2011",
+      "length": "Endless",
+      "rating": "9/10",
+      "revenue": "Over $10 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 25,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/header_alt_assets_6.jpg?t=1729515117",
+      "title": "Cult of the Lamb",
+      "developer": "Massive Monster",
+      "publisher": "Devolver Digital",
+      "year": "2022",
+      "length": "12-15 hours",
+      "rating": "8.5/10",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 26,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg?t=1723894859",
+      "title": "Lethal Company",
+      "developer": "Undefined",
+      "publisher": "Undefined",
+      "year": "TBA",
+      "length": "Unknown",
+      "rating": "Pending",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 27,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/header.jpg?t=1726500346",
+      "title": "Balatro",
+      "developer": "Undefined",
+      "publisher": "Undefined",
+      "year": "TBA",
+      "length": "Unknown",
+      "rating": "Pending",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 28,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/892970/header_alt_assets_4.jpg?t=1730188784",
+      "title": "Valheim",
+      "developer": "Iron Gate AB",
+      "publisher": "Coffee Stain Publishing",
+      "year": "2021",
+      "length": "Endless",
+      "rating": "9/10",
+      "revenue": "Over $20 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 29,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg?t=1726657304",
+      "title": "Ultrakill",
+      "developer": "Arsi \"Hakita\" Patala",
+      "publisher": "New Blood Interactive",
+      "year": "2020",
+      "length": "10-12 hours",
+      "rating": "9.2/10",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 30,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/361420/header.jpg?t=1728932433",
+      "title": "Astroneer",
+      "developer": "System Era Softworks",
+      "publisher": "System Era Softworks",
+      "year": "2019",
+      "length": "20-30 hours",
+      "rating": "8.5/10",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 31,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1055540/header.jpg?t=1701219411",
+      "title": "A Short Hike",
+      "developer": "Adamgryu",
+      "publisher": "Adamgryu",
+      "year": "2019",
+      "length": "2-3 hours",
+      "rating": "9/10",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 32,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+      "title": "The Forest",
+      "developer": "Endnight Games",
+      "publisher": "Endnight Games",
+      "year": "2014",
+      "length": "20-30 hours",
+      "rating": "8/10",
+      "revenue": "Over $5 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 33,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1729208919",
+      "title": "Subnautica",
+      "developer": "Unknown Worlds Entertainment",
+      "publisher": "Unknown Worlds Entertainment",
+      "year": "2018",
+      "length": "20-30 hours",
+      "rating": "9.3/10",
+      "revenue": "Over $10 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 34,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1666290860",
+      "title": "Terraria",
+      "developer": "Re-Logic",
+      "publisher": "Re-Logic",
+      "year": "2011",
+      "length": "Endless",
+      "rating": "9.5/10",
+      "revenue": "Over $200 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 35,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1933840/header.jpg?t=1730141892",
+      "title": "Moon Mystery",
+      "developer": "Cosmoscout",
+      "publisher": "Cosmoscout",
+      "year": "TBA",
+      "length": "Unknown",
+      "rating": "Pending",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 36,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg?t=1727256511",
+      "title": "Disco Elysium",
+      "developer": "ZA/UM",
+      "publisher": "ZA/UM",
+      "year": "2019",
+      "length": "20-25 hours",
+      "rating": "9.6/10",
+      "revenue": "Over $10 million",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 37,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/274520/header.jpg?t=1704019181",
+      "title": "Darkwood",
+      "developer": "Acid Wizard Studio",
+      "publisher": "Acid Wizard Studio",
+      "year": "2017",
+      "length": "15-20 hours",
+      "rating": "9/10",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 38,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/312520/header.jpg?t=1723129706v",
+      "title": "Rain World",
+      "developer": "Videocult",
+      "publisher": "Adult Swim Games",
+      "year": "2017",
+      "length": "20-30 hours",
+      "rating": "8.5/10",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
+    },
+    {
+      "id": 39,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1205520/header.jpg?t=1713828301",
+      "title": "Pentiment",
+      "developer": "Obsidian Entertainment",
+      "publisher": "Xbox Game Studios",
+      "year": "2022",
+      "length": "10-12 hours",
+      "rating": "9/10",
+      "revenue": "Unknown",
+      "aesthetic": "",
+      "genre": "",
+      "preview": ""
     }
   ]
 }
-
