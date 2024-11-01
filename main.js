@@ -6,16 +6,20 @@ async function fetchGames() {
   return games;
 }
 
-fetchGames().then((indie) => {
+const doc = fetchGames();
+
+doc.then((indie) => {
   const gamesSection = document.getElementById("gamesSection");
   let rowContent = "";
 
   indie.games.forEach((game, index) => {
     let card = `
-      <div class="col pb-4">
-        <div class="card border-0 bg-dark style="width: 100%;">
-          <img src="${game.poster}" class="rounded" alt="${game.title} banner">
-        </div>
+      <div id="card-${
+        game.id
+      }" class="card col mb-4 border-0 bg-dark position-relative style="width: 100%; data-preview=${
+      game.preview.trim() === "" ? "undefined" : game.preview
+    }>
+        <img src="${game.poster}" class="rounded" alt="${game.title} banner">
       </div>
     `;
 
@@ -25,5 +29,29 @@ fetchGames().then((indie) => {
       gamesSection.innerHTML += `<div class="row row-cols-1 row-cols-md-3">${rowContent}</div>`;
       rowContent = "";
     }
+  });
+
+  //-------------------------------------------------------------------------------
+
+  let cards = document.getElementsByClassName("card");
+  Array.from(cards).forEach((card) => {
+    card.addEventListener("mouseover", (e) => {
+      if (card.querySelector("iframe")) {
+        return;
+      }
+
+      let url = card.getAttribute("data-preview");
+      if (url !== 'undefined') {
+        let iframeString = `<iframe class="video-preview px-2 position-absolute top-0 start-0" width="100%" height="100%" src="${url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+        card.innerHTML += iframeString;
+      }
+    });
+
+    card.addEventListener("mouseleave", () => {
+      let iframe = card.querySelector("iframe");
+      if (iframe) {
+        iframe.remove();
+      }
+    });
   });
 });
