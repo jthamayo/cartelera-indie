@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-} 
+}
 
 .video-preview{
     pointer-events: none;
@@ -9,13 +9,19 @@
     animation-duration: 1s;
 }
 
+.ej:hover{
+    animation-name: colorRainbow;
+    animation-duration: 2s;
+    border: 5px solid white;
+}
+
 @keyframes colorRainbow {
-    0%   {background-color: #FFBC0A;}
-    20%  {background-color: #EC7D10;}
-    40%  {background-color: #FC2F00;}
-    60% {background-color: #EC0868;}
-    80% {background-color: #C200FB;}
-    100% {background-color: #8338EC;}
+    0%   {border-color: #FFBC0A;}
+    20%  {border-color: #EC7D10;}
+    40%  {border-color: #FC2F00;}
+    60% {border-color: #EC0868;}
+    80% {border-color: #C200FB;}
+    100% {border-color: #8338EC;}
 }
 
 @keyframes opacity {
