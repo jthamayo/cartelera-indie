@@ -41,8 +41,12 @@ doc.then((indie) => {
       }
 
       let url = card.getAttribute("data-preview");
-      if (url !== 'undefined') {
-        let iframeString = `<iframe class="video-preview px-2 position-absolute top-0 start-0" width="100%" height="100%" src="${url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+      if (url !== "undefined") {
+        const videoID = url.split("/embed/")[1].split("?")[0];
+        const videoControls = `?&rel=0&controls=0&start=41&autoplay=1&mute=1&loop=1&loop=1&playlist=${videoID}`;
+        let iframeString = `<iframe class="video-preview px-2 position-absolute top-0 start-0" width="100%" height="100%" 
+        src="${url + videoControls}" frameborder="0" allow="accelerometer; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
         card.innerHTML += iframeString;
       }
     });
