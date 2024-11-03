@@ -10,18 +10,25 @@ const doc = fetchGames();
 
 doc.then((indie) => {
 
-//-------------------------------------FILTER-CARDS------------------------------------------------
+  //-------------------------------------FILTER-CARDS------------------------------------------------
 
- //filterCards(indie);
+  let searchInput = document.getElementById("searchInput");
+  let filter;
+  searchInput.addEventListener("input", () => {
+    filter = searchInput.value;
+    let arrCards = filterCards(indie, filter);
+    generateCards(arrCards);
+    let cards = document.getElementsByClassName("card");
+    handleHoverEvent(cards);
+  });
 
-//-------------------------------------RENDER-CARDS---------------------------------------------------
+  //-------------------------------------RENDER-CARDS------------------------------------------------
 
   createCards(indie);
 
-//-------------------------------------VIDEO-PREVIEW-----------------------------------------------
+  //-------------------------------------VIDEO-PREVIEW-----------------------------------------------
 
   let cards = document.getElementsByClassName("card");
-
   handleHoverEvent(cards);
   
 });
@@ -36,9 +43,7 @@ function createCards(jsonDoc) {
     let card = `
       <div id="card-${
         game.id
-      }" class="card col mb-4 border-0 bg-dark position-relative style="width: 100%; data-preview=${
-      game.preview.trim() === "" ? "undefined" : game.preview
-    }>
+      }" class="card col mb-4 border-0 bg-dark position-relative style="width: 100%; data-preview="${game.preview || 'undefined'}">
         <img src="${game.poster}" class="rounded" alt="${game.title} banner">
       </div>
     `;
@@ -86,3 +91,42 @@ function showPreviewOnHover(cards) {
 }
 
 ///////////////////////////////////////FILTER-CARDS///////////////////////////////////////////////
+
+function filterCards(jsonDoc, filter = "") {
+  let filteredCards = new Array();
+  jsonDoc.games.forEach((game) => {
+    if (filter.trim()) {
+      if (game.title.toLowerCase().includes(filter.toLowerCase()) || game.developer.toLowerCase().includes(filter.toLowerCase())) {
+        filteredCards.push(game);
+      }
+    } else {
+      filteredCards.push(game);
+    }
+  });
+  return filteredCards;
+}
+
+function generateCards(gamesArr) {
+  const gamesSection = document.getElementById("gamesSection");
+  gamesSection.innerHTML = "";
+  let rowContent = "";
+
+  gamesArr.forEach((game, index) => {
+    let card = `
+      <div id="card-${
+        game.id
+      }" class="card col mb-4 border-0 bg-dark position-relative style="width: 100%; data-preview=${
+      game.preview.trim() === "" ? "undefined" : game.preview
+    }>
+        <img src="${game.poster}" class="rounded" alt="${game.title} banner">
+      </div>
+    `;
+
+    rowContent += card;
+
+    if ((index + 1) % 3 === 0 || index === gamesArr.length - 1) {
+      gamesSection.innerHTML += `<div class="row row-cols-1 row-cols-md-3">${rowContent}</div>`;
+      rowContent = "";
+    }
+  });
+}

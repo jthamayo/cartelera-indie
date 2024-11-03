@@ -5,15 +5,8 @@
 
 .video-preview{
     pointer-events: none;
-    animation-name: opacity;
-    animation-duration: 1s;
 }
 
-.ej:hover{
-    animation-name: colorRainbow;
-    animation-duration: 2s;
-    border: 5px solid white;
-}
 
 @keyframes colorRainbow {
     0%   {border-color: #FFBC0A;}
