@@ -6,9 +6,7 @@ async function fetchGames() {
   return games;
 }
 
-const doc = fetchGames();
-
-doc.then((indie) => {
+fetchGames().then((indie) => {
 
   //-------------------------------------FILTER-CARDS------------------------------------------------
 
@@ -31,6 +29,15 @@ doc.then((indie) => {
   let cards = document.getElementsByClassName("card");
   handleHoverEvent(cards);
   
+});
+
+//-------------------------------------------HOME------------------------------------------------------
+
+import("./home.js").then((m) => {
+  const homeLink = document.getElementById("home");
+    if (homeLink) {
+      homeLink.onclick = m.loadHomePage;
+  }
 });
 
 ///////////////////////////////////////RENDER-CARDS///////////////////////////////////////////////
@@ -65,7 +72,7 @@ function handleHoverEvent(cards) {
 
 function showPreviewOnHover(cards) {
   Array.from(cards).forEach((card) => {
-    card.addEventListener("mouseover", (e) => {
+    card.addEventListener("mouseenter", (e) => {
       if (card.querySelector("iframe")) {
         return;
       }

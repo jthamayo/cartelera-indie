@@ -21,7 +21,7 @@
   </head>
   <body class="text-bg-dark">
     <header>
-      <nav class="navegacion navbar navbar-dark  navbar-expand-lg fixed-top">
+      <nav class="navegacion navbar navbar-dark navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Indie Games</a>
           <button
@@ -38,7 +38,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  id="home"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  id="catalog"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >Catalog</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -76,10 +91,43 @@
         </div>
       </nav>
     </header>
-    <main class="container mt-5 pt-4 pb-4">
+    <main id="main-page" class="container mt-5 pt-4 pb-4">
       <div id="gamesSection" class="container"></div>
     </main>
+    <!-----------------------------------MODAL------------------------------------------->
+    <div
+      id="expanded-card"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Learn More
+            </button>
+            <button type="button" class="btn btn-primary">Join</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer></footer>
-    <script src="main.js"></script>
+    <script src="main.js" type="module"></script>
   </body>
 </html>
