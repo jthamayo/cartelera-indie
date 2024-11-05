@@ -1,9 +1,17 @@
 export function loadHomePage() {
   const main = document.getElementById("main-page");
   if (main) {
-    main.innerHTML = "";
-    main.innerHTML = `<div id="carouselExample" class="carousel slide">
+    main.innerHTML = `<section id="new-releases" class="pt-2 mt-5"></section>`;
+    main.setAttribute("class", "mt-1");
+    const newSection = document.getElementById("new-releases");
+    newSection.innerHTML += `<div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
     <div class="carousel-item active">
       <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1666290860" class="d-block w-100" alt="...">
     <div class="carousel-caption d-none d-md-block">
@@ -19,7 +27,7 @@ export function loadHomePage() {
   </div>
       </div>
     <div class="carousel-item">
-      <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2420660/header.jpg?t=1729124829" class="d-block w-100" alt="...">
+    <iframe class="d-block w-100" alt="..." src="https://www.youtube.com/embed/IRG8m0jBGEA?si=AvjM1kVDdmUZ4x0c&amp;controls=0&rel=0&controls=0&start=41&autoplay=1&mute=1&loop=1&playlist=IRG8m0jBGEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <div class="carousel-caption d-none d-md-block">
     <h5>...</h5>
     <p>...</p>
