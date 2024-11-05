@@ -3,11 +3,29 @@
   margin: 0;
 }
 
-
 .video-preview {
   pointer-events: none;
 }
 
+.dark-film {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 5%,
+    rgba(0, 0, 0, 0.5) 25%,
+    rgba(0, 0, 0, 0.3) 35%,
+    rgba(0, 0, 0, 0.0) 45%,
+    rgba(0, 0, 0, 0.0) 55%,
+    rgba(0, 0, 0, 0.3) 65%,
+    rgba(0, 0, 0, 0.5) 75%,
+    rgba(0, 0, 0, 1) 95%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
 .navegacion {
   backdrop-filter: blur(10px);
   background: linear-gradient(

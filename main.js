@@ -1,3 +1,5 @@
+import { loadHomePage } from "./home.js";
+
 const requestURL = "../json/indie-games.json";
 const request = new Request(requestURL);
 
@@ -16,9 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
         homePage.onclick = m.loadHomePage;
       }
     });
-  });
+    loadHomePage();
   //-------------------------------------------CATALOG------------------------------------------------------
-  fetchGames().then((indieGames) => {
     import("./catalog.js").then((m) => {
       const catalogPage = document.getElementById("catalog");
       if (catalogPage) {
