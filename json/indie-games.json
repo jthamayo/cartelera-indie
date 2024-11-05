@@ -545,6 +545,20 @@
       "aesthetic": "",
       "genre": "",
       "preview": "https://www.youtube.com/embed/OfYryKWkNfw"
+    },
+    {
+      "id": 40,
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2420660/header.jpg?t=1729124829",
+      "title": "Neva",
+      "developer": "Nomada Studio",
+      "publisher": "Devolver Digital",
+      "year": "2024",
+      "length": "18 hours",
+      "rating": "8.9/10",
+      "revenue": "$15 million",
+      "aesthetic": "Fantasy, Dark, Atmospheric",
+      "genre": "Adventure, Puzzle",
+      "preview": "https://www.youtube.com/embed/6TwolC-YT2Y"
     }
   ]
 }
