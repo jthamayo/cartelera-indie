@@ -34,9 +34,18 @@ fetchGames().then((indie) => {
 //-------------------------------------------HOME------------------------------------------------------
 
 import("./home.js").then((m) => {
-  const homeLink = document.getElementById("home");
-    if (homeLink) {
-      homeLink.onclick = m.loadHomePage;
+  const homePage = document.getElementById("home");
+    if (homePage) {
+      homePage.onclick = m.loadHomePage;
+  }
+});
+
+//-------------------------------------------CATALOG------------------------------------------------------
+
+import("./catalog.js").then((m) => {
+  const catalogPage = document.getElementById("catalog");
+    if (catalogPage) {
+      catalogPage.onclick = m.loadCatalogPage;
   }
 });
 
