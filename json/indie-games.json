@@ -10,8 +10,8 @@
       "length": "22 hours",
       "rating": "9.5/10",
       "revenue": "$20 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "2D",
+      "genre": ["roguelike"],
       "preview": "https://www.youtube.com/embed/Bz8l935Bv0Y"
     },
     {
@@ -24,8 +24,8 @@
       "length": "8 hours",
       "rating": "9.0/10",
       "revenue": "$10 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "pixel",
+      "genre": ["platform", "adventure"],
       "preview": "https://www.youtube.com/embed/70d9irlxiB4"
     },
     {
@@ -38,8 +38,8 @@
       "length": "25 hours",
       "rating": "9.7/10",
       "revenue": "$50 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "2D",
+      "genre": ["platform", "adventure", "metroidvania"],
       "preview": "https://www.youtube.com/embed/UAO2urG23S4"
     },
     {
@@ -52,8 +52,8 @@
       "length": "6 hours",
       "rating": "9.8/10",
       "revenue": "$15 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "pixel",
+      "genre": ["rol", "adventure"],
       "preview": "https://www.youtube.com/embed/1Hojv0m3TqA"
     },
     {
@@ -66,8 +66,8 @@
       "length": "10 hours",
       "rating": "8.5/10",
       "revenue": "$2 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "pixel",
+      "genre": ["platform", "puzzle"],
       "preview": "https://www.youtube.com/embed/tfpKTclOnfI"
     },
     {
@@ -80,8 +80,8 @@
       "length": "4 hours",
       "rating": "9.0/10",
       "revenue": "$10 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "dark",
+      "genre": ["platform"],
       "preview": "https://www.youtube.com/embed/Y4HSyVXKYz8"
     },
     {
@@ -94,8 +94,8 @@
       "length": "3.5 hours",
       "rating": "9.3/10",
       "revenue": "$12 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "dark",
+      "genre": ["platform", "puzzle"],
       "preview": "https://www.youtube.com/embed/yDm6PAgNohU"
     },
     {
@@ -108,8 +108,8 @@
       "length": "11 hours",
       "rating": "9.2/10",
       "revenue": "$21 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "animation",
+      "genre": ["platform", "puzzle"],
       "preview": "https://www.youtube.com/embed/NN-9SQXoi50"
     },
     {
@@ -122,8 +122,8 @@
       "length": "15 hours",
       "rating": "9.4/10",
       "revenue": "$16 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "pixel",
+      "genre": ["cards", "strategy"],
       "preview": "https://www.youtube.com/embed/jp_XgQjgGNY"
     },
     {
@@ -136,7 +136,7 @@
       "length": "5 hours",
       "rating": "8.8/10",
       "revenue": "$2.5 million",
-      "aesthetic": "",
+      "aesthetic": "2D",
       "genre": "",
       "preview": "https://www.youtube.com/embed/NAhrOoNR4ng"
     },
@@ -150,8 +150,8 @@
       "length": "12 hours",
       "rating": "9.0/10",
       "revenue": "$5 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "3D",
+      "genre": ["puzzle", "adventure"],
       "preview": "https://www.youtube.com/embed/ioxlKDOYOcM"
     },
     {
@@ -164,8 +164,8 @@
       "length": "25 hours",
       "rating": "8.9/10",
       "revenue": "$6 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "3D",
+      "genre": ["puzzle"],
       "preview": "https://www.youtube.com/embed/ul7kNFD6noU"
     },
     {
@@ -179,7 +179,7 @@
       "rating": "9.4/10",
       "revenue": "$10 million",
       "aesthetic": "",
-      "genre": "",
+      "genre": ["adventure"],
       "preview": "https://www.youtube.com/embed/Ie4izgUrUmw"
     },
     {
@@ -192,8 +192,8 @@
       "length": "12 hours",
       "rating": "8.7/10",
       "revenue": "$3 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "pixel",
+      "genre": ["metroidvania"],
       "preview": "https://www.youtube.com/embed/pyskUorhheg"
     },
     {
@@ -206,8 +206,8 @@
       "length": "16 hours",
       "rating": "9.6/10",
       "revenue": "$8 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": "3D",
+      "genre": ["puzzle", "adventure"],
       "preview": "https://www.youtube.com/embed/ZKJUMMCJvGM"
     },
     {
@@ -220,8 +220,8 @@
       "length": "3-5 hours",
       "rating": "8.8/10",
       "revenue": "TBD",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": ["cozy"],
+      "genre": ["simulation"],
       "preview": "https://www.youtube.com/embed/9HxPwQ4tjFc"
     },
     {
@@ -234,8 +234,8 @@
       "length": "50+ hours",
       "rating": "9.6/10",
       "revenue": "$50 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": ["pixel", "cozy"],
+      "genre": ["rol"],
       "preview": "https://www.youtube.com/embed/ot7uXNQskhs"
     },
     {
@@ -248,8 +248,8 @@
       "length": "4-5 hours",
       "rating": "9.0/10",
       "revenue": "$2 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": ["2D", "artistic"],
+      "genre": ["platform"],
       "preview": "https://www.youtube.com/embed/xtWnBHG6dis"
     },
     {
@@ -262,8 +262,8 @@
       "length": "12-15 hours",
       "rating": "9.3/10",
       "revenue": "$4 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": ["3D", "dark"],
+      "genre": ["cards", "horror"],
       "preview": "https://www.youtube.com/embed/70QOKsr27Po"
     },
     {
@@ -276,8 +276,8 @@
       "length": "11-12 hours",
       "rating": "9.5/10",
       "revenue": "$10 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": ["fantasy"],
+      "genre": ["metroid", "adventure"],
       "preview": "https://www.youtube.com/embed/cklw-Yu3moE"
     },
     {
@@ -290,8 +290,8 @@
       "length": "Unknown",
       "rating": "Pending",
       "revenue": "Unknown",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": ["pixel", "strategy"],
+      "genre": ["metroidvania"],
       "preview": "https://www.youtube.com/embed/qhB6dLh9nn4"
     },
     {
@@ -304,8 +304,8 @@
       "length": "5-6 hours",
       "rating": "8.8/10",
       "revenue": "Over $5 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": ["pixel"],
+      "genre": ["shooter"],
       "preview": "https://www.youtube.com/embed/mg5s5Dq50Rg"
     },
     {
@@ -318,8 +318,8 @@
       "length": "10-12 hours",
       "rating": "9/10",
       "revenue": "Unknown",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": ["pixel"],
+      "genre": ["survival"],
       "preview": "https://www.youtube.com/embed/qxvpJ1g54sY"
     },
     {
@@ -332,8 +332,8 @@
       "length": "Endless",
       "rating": "9/10",
       "revenue": "Over $10 million",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": ["pixel", "dark"],
+      "genre": ["bullet-hell", "dungeon"],
       "preview": "https://www.youtube.com/embed/BiZ6mMlOF7c"
     },
     {
@@ -346,8 +346,8 @@
       "length": "12-15 hours",
       "rating": "8.5/10",
       "revenue": "Unknown",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic": ["2D", "cutout"],
+      "genre":  ["dungeon"],
       "preview": "https://www.youtube.com/embed/XlfGvPKPEiE"
     },
     {
@@ -360,8 +360,8 @@
       "length": "Unknown",
       "rating": "Pending",
       "revenue": "Unknown",
-      "aesthetic": "",
-      "genre": "",
+      "aesthetic":  ["dark", "gritty"],
+      "genre":  ["horror", "survival"],
       "preview": "https://www.youtube.com/embed/m5RB0Ej1mFg"
     },
     {
@@ -375,7 +375,7 @@
       "rating": "Pending",
       "revenue": "Unknown",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["cards"],
       "preview": "https://www.youtube.com/embed/VUyP21iQ_-g"
     },
     {
@@ -389,7 +389,7 @@
       "rating": "9/10",
       "revenue": "Over $20 million",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["survival"],
       "preview": "https://www.youtube.com/embed/Ly2P6powIjw"
     },
     {
@@ -403,7 +403,7 @@
       "rating": "9.2/10",
       "revenue": "Unknown",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["shooter", "platform"],
       "preview": "https://www.youtube.com/embed/lXiCFvaoVik"
     },
     {
@@ -417,7 +417,7 @@
       "rating": "8.5/10",
       "revenue": "Unknown",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["survival"],
       "preview": "https://www.youtube.com/embed/UMLwzt5t9bs"
     },
     {
@@ -445,7 +445,7 @@
       "rating": "8/10",
       "revenue": "Over $5 million",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["horror"],
       "preview": "https://www.youtube.com/embed/7mwn5U2PNvk"
     },
     {
@@ -459,7 +459,7 @@
       "rating": "9.3/10",
       "revenue": "Over $10 million",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["adventure"],
       "preview": "https://www.youtube.com/embed/BtP8r8nRfko"
     },
     {
@@ -472,7 +472,7 @@
       "length": "Endless",
       "rating": "9.5/10",
       "revenue": "Over $200 million",
-      "aesthetic": "",
+      "aesthetic":  ["pixel"],
       "genre": "",
       "preview": "https://www.youtube.com/embed/w7uOhFTrrq0"
     },
@@ -487,7 +487,7 @@
       "rating": "Pending",
       "revenue": "Unknown",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["adventure", "survival"],
       "preview": "https://www.youtube.com/embed/b0lwduu8WyY"
     },
     {
@@ -501,7 +501,7 @@
       "rating": "9.6/10",
       "revenue": "Over $10 million",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["rol"],
       "preview": "https://www.youtube.com/embed/P-UY6IyI03Q"
     },
     {
@@ -515,7 +515,7 @@
       "rating": "9/10",
       "revenue": "Unknown",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["horror", "survival"],
       "preview": "https://www.youtube.com/embed/s6Mi29yJE44"
     },
     {
@@ -529,7 +529,7 @@
       "rating": "8.5/10",
       "revenue": "Unknown",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["platform", "survival"],
       "preview": "https://www.youtube.com/embed/kxbQy0U92R4"
     },
     {
@@ -543,7 +543,7 @@
       "rating": "9/10",
       "revenue": "Unknown",
       "aesthetic": "",
-      "genre": "",
+      "genre":  ["rol"],
       "preview": "https://www.youtube.com/embed/OfYryKWkNfw"
     },
     {
@@ -556,8 +556,8 @@
       "length": "18 hours",
       "rating": "8.9/10",
       "revenue": "$15 million",
-      "aesthetic": "Fantasy, Dark, Atmospheric",
-      "genre": "Adventure, Puzzle",
+      "aesthetic": ["fantasy", "dark", "atmospheric"],
+      "genre": ["adventure", "puzzle"],
       "preview": "https://www.youtube.com/embed/6TwolC-YT2Y"
     }
   ]
