@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         homePage.onclick = m.loadHomePage;
       }
     });
-    loadHomePage();
+    loadHomePage(indieGames);
   //-------------------------------------------CATALOG------------------------------------------------------
     import("./catalog.js").then((m) => {
       const catalogPage = document.getElementById("catalog");

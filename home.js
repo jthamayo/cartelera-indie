@@ -1,4 +1,4 @@
-export function loadHomePage() {
+export function loadHomePage(games) {
   const main = document.getElementById("main-page");
   if (main) {
     main.innerHTML = `<section id="new-releases" class="pt-2 mt-5"></section>`;
@@ -55,11 +55,23 @@ export function loadHomePage() {
   </button>
 </div>`;
   }
+
+  loadThematicCards(games);
 }
 
-function loadThematicCards(){
-  
-  //pixel-art
+function loadThematicCards(obj) {
+  const main = document.getElementById("main-page");
+
+  main.innerHTML += `<div id="thematicSection" class="container"></div>`;
+
+  let pixelArt = new Array();
+  obj.games.forEach((game) => {
+    // Check if aesthetic is an array and includes "pixel"
+    if (Array.isArray(game.aesthetic) && game.aesthetic.includes("pixel")) {
+      pixelArt.push(game); // Add game to pixelArt array if it has "pixel" aesthetic.
+    }
+    console.log(pixelArt);
+  });
 
   //unique aesthetic
 
@@ -76,7 +88,6 @@ function loadThematicCards(){
   //plataforma
 
   //roguelike
- 
+
   //card games
-  
 }
