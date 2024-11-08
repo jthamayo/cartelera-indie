@@ -55,6 +55,8 @@ export function loadHomePage(games) {
   </button>
 </div>`;
   }
+  //TODO: play games ONLY when carousel-item active
+  //TODO: create function to pick three latest proyects and select them to be featured in home page as new releases
 
   loadThematicCards(games);
 }
@@ -64,14 +66,30 @@ function loadThematicCards(obj) {
 
   main.innerHTML += `<div id="thematicSection" class="container"></div>`;
 
+  //pixel games
   let pixelArt = new Array();
   obj.games.forEach((game) => {
     // Check if aesthetic is an array and includes "pixel"
     if (Array.isArray(game.aesthetic) && game.aesthetic.includes("pixel")) {
       pixelArt.push(game); // Add game to pixelArt array if it has "pixel" aesthetic.
     }
-    console.log(pixelArt);
   });
+
+  document.getElementById("thematicSection").innerHTML += "<section id='pixel-section'></section>";
+
+  pixelArt.forEach(pixel =>{
+    let pixelSection = document.getElementById("pixel-section");
+    pixelSection.innerHTML += ` <div class="card" style="width: 18rem;">
+            <img src="${pixel.poster}" class="card-img-top" alt="documentary poster">
+            <div class="card-body">
+            <h5 class="card-title">${pixel.title}</h5>
+            <p class="card-title"><span class="h6">${pixel.release}</span> . ${pixel.length}</p>
+            <h6 class="card-title mb-4">${pixel.developer}</h6>
+            </div>
+        </div>`;
+  });
+   //<p class="card-text">${pixel.synopsis}</p>
+
 
   //unique aesthetic
 
