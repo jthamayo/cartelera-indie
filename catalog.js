@@ -5,13 +5,13 @@ export function loadCatalogPage(games) {
     main.innerHTML = `<div id="gamesSection" class="container"></div>`;
     renderCatalog(games);
   }
-  //-------------------------------------------------------
+  //-------------------Visual-cue-active-tab---------------------------------
 
   const homePage = document.getElementById("home");
   const catalogPage = document.getElementById("catalog");
   catalogPage.setAttribute("class", "nav-link active");
   homePage.setAttribute("class", "nav-link");
-  
+
   //-------------------------------------------------------
 
 }

@@ -1,8 +1,8 @@
 export function loadHomePage(games) {
   const main = document.getElementById("main-page");
   if (main) {
-    //-------------------------------------------------------
-    
+    //-------------------Visual-cue-active-tab---------------------------------
+
     const homePage = document.getElementById("home");
     const catalogPage = document.getElementById("catalog");
     homePage.setAttribute("class", "nav-link active");
@@ -11,7 +11,7 @@ export function loadHomePage(games) {
     //--------------------------------------------------------
     main.innerHTML = `<section id="new-releases" class="pt-2 mt-5"></section>`;
     main.setAttribute("class", "mt-1");
-    const newSection = document.getElementById("new-releases");
+    const newSection = document.getElementById("new-releases"); /*
     newSection.innerHTML += `<div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-indicators">
@@ -62,11 +62,12 @@ export function loadHomePage(games) {
     <span class="visually-hidden">Next</span>
   </button>
 </div>`;
-  }
-  //TODO: play games ONLY when carousel-item active
-  //TODO: create function to pick three latest proyects and select them to be featured in home page as new releases
+  //}*/
+    //TODO: play games ONLY when carousel-item active
+    //TODO: create function to pick three latest proyects and select them to be featured in home page as new releases
 
-  loadThematicCards(games);
+    loadThematicCards(games);
+  }
 }
 
 function loadThematicCards(obj) {
@@ -83,8 +84,13 @@ function loadThematicCards(obj) {
     }
   });
 
-  document.getElementById("thematicSection").innerHTML += "<section id='pixel-section'></section>";
+  console.log(pixelArt);
 
+  document.getElementById("thematicSection").innerHTML +=
+    "<section id='pixel-section'></section>";
+
+  generateCarouselForThematicSection("pixel-section", pixelArt);
+  /*
   pixelArt.forEach(pixel =>{
     let pixelSection = document.getElementById("pixel-section");
     pixelSection.innerHTML += ` <div class="card" style="width: 18rem;">
@@ -95,9 +101,8 @@ function loadThematicCards(obj) {
             <h6 class="card-title mb-4">${pixel.developer}</h6>
             </div>
         </div>`;
-  });
-   //<p class="card-text">${pixel.synopsis}</p>
-
+  });*/
+  //<p class="card-text">${pixel.synopsis}</p>
 
   //unique aesthetic
 
@@ -116,4 +121,43 @@ function loadThematicCards(obj) {
   //roguelike
 
   //card games
+}
+
+function generateCarouselForThematicSection(sectionID, thematicArr) {
+  let section = document.getElementById(`${sectionID}`);
+  section.innerHTML =
+    `<div id="${sectionID}-carousel" class="carousel slide"><div class="carousel-inner">`.concat(
+      insertCardsIntoCarouselItem(thematicArr).join(" "),
+      `</div><button class="carousel-control-prev" type="button" data-bs-target="#${sectionID}-carousel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#${sectionID}-carousel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div>`
+    );
+}
+
+function insertCardsIntoCarouselItem(thematicArr) {
+  let thematicCardsCarouselArr = new Array();
+  generateThematicCards(thematicArr).forEach((card) => {
+    let carouselItem = "";
+    //Quizás la estructura del item requiere más chicha luego (?)
+    thematicCardsCarouselArr.push(
+      carouselItem.concat(`<div class="carousel-item">${card}</div>`)
+    );
+  });
+  //display carousel with the middle item card as the active element 
+  thematicCardsCarouselArr[Math.floor(thematicCardsCarouselArr.length/2)] = thematicCardsCarouselArr[Math.floor(thematicCardsCarouselArr.length/2)].replace('class="carousel-item"',
+    'class="carousel-item active"');
+  return thematicCardsCarouselArr;
+}
+
+function generateThematicCards(thematicArr) {
+  let thematicCardsArr = new Array();
+  thematicArr.forEach((game) => {
+    thematicCardsArr.push(`<div class="card" style="width: 18rem;">
+      <img src="${game.poster}" class="card-img-top" alt="${game.title} card">
+      <div class="card-body">
+      <h5 class="card-title">${game.title}</h5>
+      <p class="card-title"><span class="h6">${game.release}</span> . ${game.length}</p>
+      <h6 class="card-title mb-4">${game.developer}</h6>
+      </div>
+  </div>`);
+  });
+  return thematicCardsArr;
 }
