@@ -11,7 +11,7 @@ export function loadHomePage(games) {
     //--------------------------------------------------------
     main.innerHTML = `<section id="new-releases" class="pt-2 mt-5"></section>`;
     main.setAttribute("class", "mt-1");
-    const newSection = document.getElementById("new-releases"); /*
+    const newSection = document.getElementById("new-releases");
     newSection.innerHTML += `<div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-indicators">
@@ -62,9 +62,13 @@ export function loadHomePage(games) {
     <span class="visually-hidden">Next</span>
   </button>
 </div>`;
-  //}*/
-    //TODO: play games ONLY when carousel-item active
-    //TODO: create function to pick three latest proyects and select them to be featured in home page as new releases
+  //}
+    //TODO: play games ONLY when featured carousel-item active
+    //TODO: create function to pick three latest games to be featured in home page as new releases
+    //TODO: link steam to explore cards button
+    //TODO: swap black linear-gardient for svg
+    //TODO: fix page home tab load issue
+    //TODO: add carousel next and previous previsualization
 
     loadThematicCards(games);
   }
@@ -73,36 +77,28 @@ export function loadHomePage(games) {
 function loadThematicCards(obj) {
   const main = document.getElementById("main-page");
 
-  main.innerHTML += `<div id="thematicSection" class="container"></div>`;
+  main.innerHTML += `<div id="thematicSection" class="container px-5"></div>`;
 
-  //pixel games
+  ///////////////////////////////////////////pixel games//////////////////////////////////////////////////////
+
   let pixelArt = new Array();
   obj.games.forEach((game) => {
     // Check if aesthetic is an array and includes "pixel"
     if (Array.isArray(game.aesthetic) && game.aesthetic.includes("pixel")) {
-      pixelArt.push(game); // Add game to pixelArt array if it has "pixel" aesthetic.
+      pixelArt.push(game);
     }
   });
 
-  console.log(pixelArt);
-
   document.getElementById("thematicSection").innerHTML +=
-    "<section id='pixel-section'></section>";
+    "<section id='pixel-section' class='container mt-5'></section>";
 
+  document.getElementById("pixel-section").innerHTML += `<h2 class="fs-1 fw-bold">Discover Pixel Art Games</h2><h3 class="text-secondary">Explore the World of Retro Pixel Art</h3>`;
   generateCarouselForThematicSection("pixel-section", pixelArt);
-  /*
-  pixelArt.forEach(pixel =>{
-    let pixelSection = document.getElementById("pixel-section");
-    pixelSection.innerHTML += ` <div class="card" style="width: 18rem;">
-            <img src="${pixel.poster}" class="card-img-top" alt="documentary poster">
-            <div class="card-body">
-            <h5 class="card-title">${pixel.title}</h5>
-            <p class="card-title"><span class="h6">${pixel.release}</span> . ${pixel.length}</p>
-            <h6 class="card-title mb-4">${pixel.developer}</h6>
-            </div>
-        </div>`;
-  });*/
-  //<p class="card-text">${pixel.synopsis}</p>
+
+  ///////////////////////////////////////////cozy games//////////////////////////////////////////////////////
+
+
+  ///////////////////////////////////////////puzzle games//////////////////////////////////////////////////////
 
   //unique aesthetic
 
@@ -125,8 +121,8 @@ function loadThematicCards(obj) {
 
 function generateCarouselForThematicSection(sectionID, thematicArr) {
   let section = document.getElementById(`${sectionID}`);
-  section.innerHTML =
-    `<div id="${sectionID}-carousel" class="carousel slide"><div class="carousel-inner">`.concat(
+  section.innerHTML +=
+    `<div id="${sectionID}-carousel" class="carousel slide m-5"><div class="carousel-inner">`.concat(
       insertCardsIntoCarouselItem(thematicArr).join(" "),
       `</div><button class="carousel-control-prev" type="button" data-bs-target="#${sectionID}-carousel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#${sectionID}-carousel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div>`
     );
@@ -141,23 +137,26 @@ function insertCardsIntoCarouselItem(thematicArr) {
       carouselItem.concat(`<div class="carousel-item">${card}</div>`)
     );
   });
-  //display carousel with the middle item card as the active element 
-  thematicCardsCarouselArr[Math.floor(thematicCardsCarouselArr.length/2)] = thematicCardsCarouselArr[Math.floor(thematicCardsCarouselArr.length/2)].replace('class="carousel-item"',
-    'class="carousel-item active"');
+  //display carousel with the middle item card as the active element
+  thematicCardsCarouselArr[Math.floor(thematicCardsCarouselArr.length / 2)] =
+    thematicCardsCarouselArr[
+      Math.floor(thematicCardsCarouselArr.length / 2)
+    ].replace('class="carousel-item"', 'class="carousel-item active"');
   return thematicCardsCarouselArr;
 }
 
 function generateThematicCards(thematicArr) {
   let thematicCardsArr = new Array();
   thematicArr.forEach((game) => {
-    thematicCardsArr.push(`<div class="card" style="width: 18rem;">
-      <img src="${game.poster}" class="card-img-top" alt="${game.title} card">
+    thematicCardsArr.push(`<div class="d-flex justify-content-center"><div class="card w-auto border-0 text-center text-white shadow" style="width: 18rem;">
+      <img src="${game.poster}" class="card-img-top position-relative" alt="${game.title} card">
       <div class="card-body">
-      <h5 class="card-title">${game.title}</h5>
-      <p class="card-title"><span class="h6">${game.release}</span> . ${game.length}</p>
-      <h6 class="card-title mb-4">${game.developer}</h6>
+      <h5 class="card-title text-uppercase">${game.title}</h5>
+      <p class="card-title text-secondary">${game.release} . ${game.length} . ${game.developer}</p>
+      <a href="#" class="btn text-light border-0 m-3 px-4 position-absolute top-50 end-0">explore</a>
       </div>
-  </div>`);
+      </div>
+      </div>`);
   });
   return thematicCardsArr;
 }
