@@ -10,10 +10,12 @@ async function fetchGames() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  const homePage = document.getElementById("home");
+  const catalogPage = document.getElementById("catalog");
+
   //-------------------------------------------HOME------------------------------------------------------
   fetchGames().then((indieGames) => {
     import("./home.js").then((m) => {
-      const homePage = document.getElementById("home");
       if (homePage) {
         homePage.onclick = m.loadHomePage;
       }
@@ -21,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     loadHomePage(indieGames);
   //-------------------------------------------CATALOG------------------------------------------------------
     import("./catalog.js").then((m) => {
-      const catalogPage = document.getElementById("catalog");
       if (catalogPage) {
         catalogPage.onclick = () => m.loadCatalogPage(indieGames);
       }

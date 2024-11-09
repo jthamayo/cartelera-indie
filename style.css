@@ -8,15 +8,15 @@
 }
 
 .dark-film {
+  /* TODO: replace gardient with image */
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 1) 5%,
-    rgba(0, 0, 0, 0.5) 25%,
-    rgba(0, 0, 0, 0.3) 35%,
-    rgba(0, 0, 0, 0.0) 45%,
-    rgba(0, 0, 0, 0.0) 55%,
-    rgba(0, 0, 0, 0.3) 65%,
-    rgba(0, 0, 0, 0.5) 75%,
+    rgba(0, 0, 0, 0.7) 25%,
+    rgba(0, 0, 0, 0.4) 35%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.4) 65%,
+    rgba(0, 0, 0, 0.7) 75%,
     rgba(0, 0, 0, 1) 95%
   );
   position: absolute;

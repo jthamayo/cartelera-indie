@@ -1,6 +1,14 @@
 export function loadHomePage(games) {
   const main = document.getElementById("main-page");
   if (main) {
+    //-------------------------------------------------------
+    
+    const homePage = document.getElementById("home");
+    const catalogPage = document.getElementById("catalog");
+    homePage.setAttribute("class", "nav-link active");
+    catalogPage.setAttribute("class", "nav-link");
+
+    //--------------------------------------------------------
     main.innerHTML = `<section id="new-releases" class="pt-2 mt-5"></section>`;
     main.setAttribute("class", "mt-1");
     const newSection = document.getElementById("new-releases");
