@@ -79,6 +79,10 @@ function loadThematicCards(obj) {
 
   main.innerHTML += `<div id="thematicSection" class="container px-5"></div>`;
 
+  let themeArr = ["atmospheric", "metroidvania", "puzzle", "card", "horror", "pixel", "cutouts", "cozy"];
+
+
+
   ///////////////////////////////////////////pixel games//////////////////////////////////////////////////////
 
   let pixelArt = new Array();
@@ -89,34 +93,19 @@ function loadThematicCards(obj) {
     }
   });
 
-  document.getElementById("thematicSection").innerHTML +=
-    "<section id='pixel-section' class='container mt-5'></section>";
+  createThematicSection(themeArr);
 
-  document.getElementById("pixel-section").innerHTML += `<h2 class="fs-1 fw-bold">Discover Pixel Art Games</h2><h3 class="text-secondary">Explore the World of Retro Pixel Art</h3>`;
-  generateCarouselForThematicSection("pixel-section", pixelArt);
+  generateCarouselForThematicSection("pixel-games", pixelArt);
 
-  ///////////////////////////////////////////cozy games//////////////////////////////////////////////////////
+}
 
+function createThematicSection(themeArr){
+  const container = document.getElementById("thematicSection");
+  themeArr.forEach(theme =>{
+    container.innerHTML += `<section id='${theme}-games' class='container mt-5'></section>`;
+    document.getElementById(`${theme}-games`).innerHTML += `<h2 class="fs-1 fw-bold text-capitalize">${theme} Games</h2><h3 class="text-secondary">Explore the World of ${theme} Games</h3>`;
 
-  ///////////////////////////////////////////puzzle games//////////////////////////////////////////////////////
-
-  //unique aesthetic
-
-  //cozy
-
-  //horror
-
-  //adventure
-
-  //puzzle
-
-  //metroidvania
-
-  //plataforma
-
-  //roguelike
-
-  //card games
+  });
 }
 
 function generateCarouselForThematicSection(sectionID, thematicArr) {
@@ -152,8 +141,8 @@ function generateThematicCards(thematicArr) {
       <img src="${game.poster}" class="card-img-top position-relative" alt="${game.title} card">
       <div class="card-body">
       <h5 class="card-title text-uppercase">${game.title}</h5>
-      <p class="card-title text-secondary">${game.release} . ${game.length} . ${game.developer}</p>
-      <a href="#" class="btn text-light border-0 m-3 px-4 position-absolute top-50 end-0">explore</a>
+      <p class="card-title text-secondary">${game.release} . ${game.length} . developed by ${game.developer}</p>
+      <a href="${game.steam_page}" target="_blank" rel="noopener noreferrer" class="btn text-light border-0 m-3 px-4 position-absolute top-50 end-0">explore</a>
       </div>
       </div>
       </div>`);

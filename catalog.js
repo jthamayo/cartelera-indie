@@ -34,7 +34,6 @@ function renderCatalog(games) {
 function createCards(obj) {
   const gamesSection = document.getElementById("gamesSection");
   let rowContent = "";
-
   obj.games.forEach((game, index) => {
     let card = `
         <div id="card-${
