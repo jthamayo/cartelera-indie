@@ -62,7 +62,7 @@ export function loadHomePage(games) {
     <span class="visually-hidden">Next</span>
   </button>
 </div>`;
-  //}
+    //}
     //TODO: play games ONLY when featured carousel-item active
     //TODO: create function to pick three latest games to be featured in home page as new releases
     //TODO: link steam to explore cards button
@@ -70,42 +70,55 @@ export function loadHomePage(games) {
     //TODO: fix page home tab load issue
     //TODO: add carousel next and previous previsualization
 
-    loadThematicCards(games);
+    loadThematicCards(games, main);
   }
 }
 
-function loadThematicCards(obj) {
-  const main = document.getElementById("main-page");
+function loadThematicCards(obj, main) {
 
   main.innerHTML += `<div id="thematicSection" class="container px-5"></div>`;
+  document.getElementById(`thematicSection`).innerHTML = `<div id="games-aesthetic"></div><div id="games-genre"></div>`
 
-  let themeArr = ["atmospheric", "metroidvania", "puzzle", "card", "horror", "pixel", "cutouts", "cozy"];
+  const aestheticsTheme = ["atmospheric", "pixel", "cozy", "cutouts"];
 
+  const genreTheme = ["metroidvania", "puzzle", "card", "horror"];
 
-
-  ///////////////////////////////////////////pixel games//////////////////////////////////////////////////////
-
-  let pixelArt = new Array();
-  obj.games.forEach((game) => {
-    // Check if aesthetic is an array and includes "pixel"
-    if (Array.isArray(game.aesthetic) && game.aesthetic.includes("pixel")) {
-      pixelArt.push(game);
-    }
-  });
-
-  createThematicSection(themeArr);
-
-  generateCarouselForThematicSection("pixel-games", pixelArt);
-
+  gamesByAesthetic(aestheticsTheme, obj);
+  gamesByGenre(genreTheme, obj);
 }
 
-function createThematicSection(themeArr){
-  const container = document.getElementById("thematicSection");
-  themeArr.forEach(theme =>{
-    container.innerHTML += `<section id='${theme}-games' class='container mt-5'></section>`;
-    document.getElementById(`${theme}-games`).innerHTML += `<h2 class="fs-1 fw-bold text-capitalize">${theme} Games</h2><h3 class="text-secondary">Explore the World of ${theme} Games</h3>`;
-
+function gamesByAesthetic(themeArr, obj) {
+  createThematicSection(themeArr, document.getElementById("games-aesthetic"));
+  let themedGames = new Array();
+  themeArr.forEach((theme) => {
+    themedGames = createGameAestheticThemeArr(theme, obj);
+    generateCarouselForThematicSection(`${theme}-games`, themedGames);
   });
+}
+
+function gamesByGenre(themeArr, obj) {
+  createThematicSection(themeArr, document.getElementById("games-aesthetic"));
+  let themedGames = new Array();
+  themeArr.forEach((theme) => {
+    themedGames = createGameGenreThemeArr(theme, obj);
+    generateCarouselForThematicSection(`${theme}-games`, themedGames);
+  });
+}
+
+function createThematicSection(themeArr, container) {
+  themeArr.forEach((theme) => {
+    container.innerHTML += `<section id='${theme}-games' class='container mt-5'></section>`;
+    document.getElementById(
+      `${theme}-games`
+    ).innerHTML += `<h2 class="fs-1 fw-bold text-capitalize">${theme} Games</h2><h3 class="text-secondary">Explore the World of ${theme} Games</h3>`;
+  });
+}
+
+function createGameAestheticThemeArr(theme, obj) {
+  return obj.games.filter((game) => game.aesthetic.includes(theme));
+}
+function createGameGenreThemeArr(theme, obj) {
+  return obj.games.filter((game) => game.genre.includes(theme));
 }
 
 function generateCarouselForThematicSection(sectionID, thematicArr) {
@@ -128,9 +141,7 @@ function insertCardsIntoCarouselItem(thematicArr) {
   });
   //display carousel with the middle item card as the active element
   thematicCardsCarouselArr[Math.floor(thematicCardsCarouselArr.length / 2)] =
-    thematicCardsCarouselArr[
-      Math.floor(thematicCardsCarouselArr.length / 2)
-    ].replace('class="carousel-item"', 'class="carousel-item active"');
+    thematicCardsCarouselArr[Math.floor(thematicCardsCarouselArr.length / 2)].replace('class="carousel-item"', 'class="carousel-item active"');
   return thematicCardsCarouselArr;
 }
 
