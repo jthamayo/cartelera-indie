@@ -15,18 +15,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //-------------------------------------------HOME------------------------------------------------------
   fetchGames().then((indieGames) => {
-    import("./home.js").then((m) => {
-      if (homePage) {
-        homePage.onclick = m.loadHomePage;
-      }
-    });
     loadHomePage(indieGames);
-  //-------------------------------------------CATALOG------------------------------------------------------
+    import("./home.js").then((m) => {
+      homePage.onclick = () => m.loadHomePage(indieGames);
+    });
+    //-------------------------------------------CATALOG------------------------------------------------------
     import("./catalog.js").then((m) => {
-      if (catalogPage) {
-        catalogPage.onclick = () => m.loadCatalogPage(indieGames);
-      }
+      catalogPage.onclick = () => m.loadCatalogPage(indieGames);
     });
   });
 });
-
