@@ -10,7 +10,7 @@
       "length": "22 hours",
       "rating": "9.5/10",
       "revenue": "$20 million",
-      "aesthetic": "2D",
+      "aesthetic": ["undefined"],
       "genre": ["roguelike"],
       "preview": "https://www.youtube.com/embed/Bz8l935Bv0Y",
       "steam_page": "https://store.steampowered.com/app/1145360/Hades/"
@@ -85,7 +85,7 @@
       "length": "4 hours",
       "rating": "9.0/10",
       "revenue": "$10 million",
-      "aesthetic": "dark",
+      "aesthetic": ["dark", "atmospheric"],
       "genre": ["platform"],
       "preview": "https://www.youtube.com/embed/Y4HSyVXKYz8",
       "steam_page": "https://store.steampowered.com/app/48000/LIMBO/"
@@ -100,7 +100,7 @@
       "length": "3.5 hours",
       "rating": "9.3/10",
       "revenue": "$12 million",
-      "aesthetic": "dark",
+      "aesthetic": ["dark", "atmospheric"],
       "genre": ["platform", "puzzle"],
       "preview": "https://www.youtube.com/embed/yDm6PAgNohU",
       "steam_page": "https://store.steampowered.com/app/304430/INSIDE/"
@@ -131,7 +131,7 @@
       "rating": "9.4/10",
       "revenue": "$16 million",
       "aesthetic": ["pixel"],
-      "genre": ["cards", "strategy"],
+      "genre": ["card", "strategy"],
       "preview": "https://www.youtube.com/embed/jp_XgQjgGNY",
       "steam_page": "https://store.steampowered.com/app/646570/Slay_the_Spire/"
     },
@@ -145,8 +145,8 @@
       "length": "5 hours",
       "rating": "8.8/10",
       "revenue": "$2.5 million",
-      "aesthetic": "2D",
-      "genre": "",
+      "aesthetic": ["2D"],
+      "genre": ["undefined"],
       "preview": "https://www.youtube.com/embed/NAhrOoNR4ng",
       "steam_page": "https://store.steampowered.com/app/388880/Oxenfree/"
     },
@@ -160,7 +160,7 @@
       "length": "12 hours",
       "rating": "9.0/10",
       "revenue": "$5 million",
-      "aesthetic": "3D",
+      "aesthetic": ["3D"],
       "genre": ["puzzle", "adventure"],
       "preview": "https://www.youtube.com/embed/ioxlKDOYOcM",
       "steam_page": "https://store.steampowered.com/app/553420/TUNIC/"
@@ -175,7 +175,7 @@
       "length": "25 hours",
       "rating": "8.9/10",
       "revenue": "$6 million",
-      "aesthetic": "3D",
+      "aesthetic": ["3D"],
       "genre": ["puzzle"],
       "preview": "https://www.youtube.com/embed/ul7kNFD6noU",
       "steam_page": "https://store.steampowered.com/app/210970/The_Witness/"
@@ -220,7 +220,7 @@
       "length": "16 hours",
       "rating": "9.6/10",
       "revenue": "$8 million",
-      "aesthetic": "3D",
+      "aesthetic": ["3D"],
       "genre": ["puzzle", "adventure"],
       "preview": "https://www.youtube.com/embed/ZKJUMMCJvGM",
       "steam_page": "https://store.steampowered.com/app/753640/Outer_Wilds/"
@@ -281,7 +281,7 @@
       "rating": "9.3/10",
       "revenue": "$4 million",
       "aesthetic": ["3D", "dark"],
-      "genre": ["cards", "horror"],
+      "genre": ["card", "horror"],
       "preview": "https://www.youtube.com/embed/70QOKsr27Po",
       "steam_page": "https://store.steampowered.com/app/1092790/Inscryption/"
     },
@@ -296,7 +296,7 @@
       "rating": "9.5/10",
       "revenue": "$10 million",
       "aesthetic": ["fantasy", "atmospheric"],
-      "genre": ["metroid", "adventure"],
+      "genre": ["metroidvania", "adventure"],
       "preview": "https://www.youtube.com/embed/cklw-Yu3moE",
       "steam_page": "https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/"
     },
@@ -400,8 +400,8 @@
       "length": "Unknown",
       "rating": "Pending",
       "revenue": "Unknown",
-      "aesthetic": "",
-      "genre": ["cards"],
+      "aesthetic": ["undefined"],
+      "genre": ["card"],
       "preview": "https://www.youtube.com/embed/VUyP21iQ_-g",
       "steam_page": "https://store.steampowered.com/app/2379780/Balatro/"
     },
@@ -415,7 +415,7 @@
       "length": "Endless",
       "rating": "9/10",
       "revenue": "Over $20 million",
-      "aesthetic": "",
+      "aesthetic": ["undefined"],
       "genre": ["survival"],
       "preview": "https://www.youtube.com/embed/Ly2P6powIjw",
       "steam_page": "https://store.steampowered.com/app/892970/Valheim/"
@@ -461,7 +461,7 @@
       "rating": "9/10",
       "revenue": "Unknown",
       "aesthetic": ["cozy", "atmospheric"],
-      "genre": "",
+      "genre": ["undefined"],
       "preview": "https://www.youtube.com/embed/l4bWwobx_LQ",
       "steam_page": "https://store.steampowered.com/app/1055540/A_Short_Hike/"
     },
@@ -475,7 +475,7 @@
       "length": "20-30 hours",
       "rating": "8/10",
       "revenue": "Over $5 million",
-      "aesthetic": "",
+      "aesthetic": ["undefined"],
       "genre": ["horror"],
       "preview": "https://www.youtube.com/embed/7mwn5U2PNvk",
       "steam_page": "https://store.steampowered.com/app/242760/The_Forest/"
@@ -490,7 +490,7 @@
       "length": "20-30 hours",
       "rating": "9.3/10",
       "revenue": "Over $10 million",
-      "aesthetic": "",
+      "aesthetic": ["undefined"],
       "genre": ["adventure"],
       "preview": "https://www.youtube.com/embed/BtP8r8nRfko",
       "steam_page": "https://store.steampowered.com/app/264710/Subnautica/"
@@ -506,7 +506,7 @@
       "rating": "9.5/10",
       "revenue": "Over $200 million",
       "aesthetic": ["pixel"],
-      "genre": "",
+      "genre": ["undefined"],
       "preview": "https://www.youtube.com/embed/w7uOhFTrrq0",
       "steam_page": "https://store.steampowered.com/app/105600/Terraria/"
     },
@@ -520,7 +520,7 @@
       "length": "Unknown",
       "rating": "Pending",
       "revenue": "Unknown",
-      "aesthetic": "",
+      "aesthetic": ["undefined"],
       "genre": ["adventure", "survival"],
       "preview": "https://www.youtube.com/embed/b0lwduu8WyY",
       "steam_page": "https://store.steampowered.com/app/1933840/Moon_Mystery/"
