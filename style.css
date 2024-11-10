@@ -8,16 +8,15 @@
 }
 
 .dark-film {
-  /* TODO: replace gardient with image */
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 1) 5%,
-    rgba(0, 0, 0, 0.7) 25%,
-    rgba(0, 0, 0, 0.4) 35%,
-    rgba(0, 0, 0, 0.3) 50%,
-    rgba(0, 0, 0, 0.4) 65%,
-    rgba(0, 0, 0, 0.7) 75%,
-    rgba(0, 0, 0, 1) 95%
+    rgb(22, 2, 1) 5%,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(0, 0, 0, 0.5) 35%,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.5) 65%,
+    rgba(0, 0, 0, 1) 85%,
+    rgb(22, 2, 1) 95%
   );
   position: absolute;
   top: 0;
@@ -70,4 +69,17 @@ section .card {
   100% {
     background-position: 0% 50%;
   }
+}
+
+#thematicSection section{
+  background: linear-gradient(
+    90deg,
+    rgb(22, 2, 1) 5%,
+    rgba(0, 0, 0, 0.7) 25%,
+    rgba(0, 0, 0, 0.4) 35%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0.4) 65%,
+    rgba(0, 0, 0, 0.7) 75%,
+    rgb(22, 2, 1) 95%
+  );
 }
