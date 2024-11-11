@@ -21,6 +21,7 @@
   </head>
   <body class="text-bg-dark">
     <header>
+    <!-----------NABAR----------->
       <nav class="navegacion navbar navbar-dark navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Indie Games</a>
@@ -64,21 +65,15 @@
         </div>
       </nav>
     </header>
+    <!-----------MAIN----------->
     <main id="main-page" class="container">
-      <!---------------------------------dynamically-rendered------------------------------>
     </main>
-    <!-----------------------------------MODAL------------------------------------------->
-    <div
-      id="expanded-card"
-      class="modal fade"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered modal-dialog modal-xl">
-        <div class="modal-content">
+    <!-----------MODAL----------->
+    <div id="expanded-card" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-dark">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <h5 class="modal-title fs-5" id="expanded-card-label"></h5>
             <button
               type="button"
               class="btn-close"
@@ -86,7 +81,10 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">...</div>
+          <div class="modal-body"> <img id="modal-img" src="" alt="Card Image" class="img-fluid mb-3">
+            <p id="modal-description"></p>
+            <p id="modal-synopsis"></p>
+          </div>
           <div class="modal-footer">
             <button
               type="button"
@@ -96,11 +94,12 @@
               Learn More
             </button>
             <button type="button" class="btn btn-primary">Join</button>
+            <a id="modal-link" href="" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark">Buy</a>
           </div>
         </div>
       </div>
     </div>
-    <footer></footer>
+    <footer><div></div></footer>
     <script src="main.js" type="module"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

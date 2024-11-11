@@ -33,26 +33,53 @@ function renderCatalog(games) {
 
 function createCards(obj) {
   const gamesSection = document.getElementById("gamesSection");
-  let rowContent = "";
+  let row = document.createElement("div");
+  row.setAttribute("class", "row row-cols-1 row-cols-md-3");
   obj.games.forEach((game, index) => {
-    let card = `
-        <div id="card-${
-          game.id
-        }" class="card col mb-4 border-0 bg-dark position-relative style="width: 100%; data-preview="${
-      game.preview || "undefined"
-    }">
-          <img src="${game.poster}" class="rounded" alt="${game.title} banner">
-        </div>
-      `;
 
-    rowContent += card;
+    let card = document.createElement("div");
+    card.setAttribute("id", `card-${game.id}`);
+    card.setAttribute("class", `card col mb-4 border-0 bg-dark position-relative`);
+    card.setAttribute("data-preview", `${game.preview || "undefined"}`);
+
+    let poster = document.createElement("img");
+    poster.setAttribute("src", `${game.poster}`);
+    poster.setAttribute("class", `rounded`);
+    poster.setAttribute("alt", `${game.title} banner`);
+
+    card.appendChild(poster);
+
+    card.addEventListener('click', () => {
+      handleClickEvent(game);
+    });
+
+    row.appendChild(card);
 
     if ((index + 1) % 3 === 0 || index === obj.games.length - 1) {
-      gamesSection.innerHTML += `<div class="row row-cols-1 row-cols-md-3">${rowContent}</div>`;
-      rowContent = "";
+      gamesSection.appendChild(row);
+      row = document.createElement("div");
+      row.setAttribute("class", "row row-cols-1 row-cols-md-3");
     }
+
   });
 }
+
+
+//////////////////////////////////////CLICK-EVENT//////////////////////////////////////////////////
+
+function handleClickEvent(game){
+  document.getElementById('expanded-card-label').textContent = game.title;
+  document.getElementById('modal-description').textContent = game.developer;
+  document.getElementById('modal-img').src = game.poster;
+  document.getElementById('modal-link').href = game.steam_page;
+  document.getElementById('modal-synopsis').href = game.synopsis;
+  const gameModal = document.getElementById('expanded-card');
+  if (gameModal) {
+    const myModal = new bootstrap.Modal(gameModal);
+    myModal.show();
+  }
+}
+
 
 ///////////////////////////////////////HOVER-EVENT///////////////////////////////////////////////
 
