@@ -21,7 +21,7 @@
   </head>
   <body class="text-bg-dark">
     <header>
-    <!-----------NABAR----------->
+      <!-----------NABAR----------->
       <nav class="navegacion navbar navbar-dark navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Indie Games</a>
@@ -66,26 +66,51 @@
       </nav>
     </header>
     <!-----------MAIN----------->
-    <main id="main-page" class="container">
-    </main>
+    <main id="main-page" class="container"></main>
     <!-----------MODAL----------->
-    <div id="expanded-card" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div
+      id="expanded-card"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content bg-dark">
-          <div class="modal-header">
-            <h5 class="modal-title fs-5" id="expanded-card-label"></h5>
+          <div class="modal-header border-0 bg-secondary p-3">
+            <h5
+              class="modal-title fs-1 fw-semibold"
+              id="expanded-card-label"
+            ></h5>
             <button
               type="button"
-              class="btn-close"
+              class="btn-close bg-light"
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body"> <img id="modal-img" src="" alt="Card Image" class="img-fluid mb-3">
+          <img id="modal-img" src="" alt="game banner" class="w-100 position-relative" />
+          <div class="modal-body p-4">
             <p id="modal-description"></p>
-            <p id="modal-synopsis"></p>
+            <h6 class="fs-3">Genre</h6>
+            <p id="modal-genre" class=""></p>
+            <p id="modal-features" class=""></p>
+            <h6 class="fs-3">Synopsis</h6>
+            <p id="modal-synopsis" class=""></p>
           </div>
-          <div class="modal-footer">
+          <div id="modal-images">
+          <iframe
+            id="modal-video"
+            class="top-0 start-0"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            allow="accelerometer; 
+            clipboard-write; encrypted-media; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+          </div>
+          <div class="modal-footer border-0 p-4">
             <button
               type="button"
               class="btn btn-secondary"
@@ -94,7 +119,14 @@
               Learn More
             </button>
             <button type="button" class="btn btn-primary">Join</button>
-            <a id="modal-link" href="" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark">Buy</a>
+            <a
+              id="modal-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-light"
+              >Buy</a
+            >
           </div>
         </div>
       </div>

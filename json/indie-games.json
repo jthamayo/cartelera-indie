@@ -13,7 +13,8 @@
       "aesthetic": ["undefined"],
       "genre": ["roguelike"],
       "preview": "https://www.youtube.com/embed/Bz8l935Bv0Y",
-      "steam_page": "https://store.steampowered.com/app/1145360/Hades/"
+      "steam_page": "https://store.steampowered.com/app/1145360/Hades/",
+      "synopsis": "A roguelike action game where you play as Zagreus, the son of Hades. Battle through the Underworld using mythic weapons and unique abilities. Face off against gods and creatures as you attempt to escape your father’s realm. Each failed attempt brings you closer to the truth and new allies."
     },
     {
       "id": 2,
@@ -28,7 +29,8 @@
       "aesthetic": ["pixel"],
       "genre": ["platform", "adventure"],
       "preview": "https://www.youtube.com/embed/70d9irlxiB4",
-      "steam_page": "https://store.steampowered.com/app/504230/Celeste/"
+      "steam_page": "https://store.steampowered.com/app/504230/Celeste/",
+      "synopsis": "Join Madeline on her journey to the summit of Celeste Mountain in this challenging platformer. With precise controls and an emotional story, you'll face obstacles that mirror the protagonist's inner struggles. Discover hidden secrets and meet memorable characters. A story of personal growth and perseverance."
     },
     {
       "id": 3,
@@ -43,7 +45,8 @@
       "aesthetic": ["cutouts", "atmospheric"],
       "genre": ["platform", "adventure", "metroidvania"],
       "preview": "https://www.youtube.com/embed/UAO2urG23S4",
-      "steam_page": "https://store.steampowered.com/app/367520/Hollow_Knight/"
+      "steam_page": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+      "synopsis": "Explore the vast and dark world of Hallownest, filled with secrets and deadly foes. Play as a small knight on a quest for answers in this atmospheric metroidvania. Upgrade your skills to overcome challenging bosses and puzzles. Stunning art and music immerse you in its mysterious environment."
     },
     {
       "id": 4,
@@ -58,7 +61,8 @@
       "aesthetic": ["pixel"],
       "genre": ["rol", "adventure"],
       "preview": "https://www.youtube.com/embed/1Hojv0m3TqA",
-      "steam_page": "https://store.steampowered.com/app/391540/Undertale/"
+      "steam_page": "https://store.steampowered.com/app/391540/Undertale/",
+      "synopsis": "An indie RPG where your choices truly matter. Play as a child who falls into a world of monsters. Will you choose to befriend or fight your way through? The game defies expectations with its humor, narrative twists, and unique combat system. Your decisions impact everyone's fate."
     },
     {
       "id": 5,
@@ -73,7 +77,8 @@
       "aesthetic": ["pixel"],
       "genre": ["platform", "puzzle"],
       "preview": "https://www.youtube.com/embed/tfpKTclOnfI",
-      "steam_page": "https://store.steampowered.com/app/224760/Fez/"
+      "steam_page": "https://store.steampowered.com/app/224760/Fez/",
+      "synopsis": "Join Gomez on a journey to uncover a 2D world hiding 3D secrets. Solve clever puzzles by shifting perspectives and exploring vibrant environments. A tribute to retro games with a modern twist. The pixel art and enchanting music create an unforgettable experience."
     },
     {
       "id": 6,
@@ -88,7 +93,8 @@
       "aesthetic": ["dark", "atmospheric"],
       "genre": ["platform"],
       "preview": "https://www.youtube.com/embed/Y4HSyVXKYz8",
-      "steam_page": "https://store.steampowered.com/app/48000/LIMBO/"
+      "steam_page": "https://store.steampowered.com/app/48000/LIMBO/",
+      "synopsis": "Dive into a haunting black-and-white adventure as you guide a boy through a bleak world. Environmental puzzles and deadly traps will test your wits. The dark atmosphere and sound effects create an immersive experience. An interpretive story that leaves a lasting impact on your imagination."
     },
     {
       "id": 7,
@@ -103,7 +109,8 @@
       "aesthetic": ["dark", "atmospheric"],
       "genre": ["platform", "puzzle"],
       "preview": "https://www.youtube.com/embed/yDm6PAgNohU",
-      "steam_page": "https://store.steampowered.com/app/304430/INSIDE/"
+      "steam_page": "https://store.steampowered.com/app/304430/INSIDE/",
+      "synopsis": "From the creators of Limbo, comes a platformer with a dark and atmospheric narrative. Control a boy fleeing a dystopian regime, unraveling disturbing mysteries along the way. Fluid gameplay and clever level design keep you on the edge of your seat. A haunting journey full of unexpected twists."
     },
     {
       "id": 8,
@@ -118,7 +125,8 @@
       "aesthetic": ["animation", "cutouts"],
       "genre": ["platform", "puzzle"],
       "preview": "https://www.youtube.com/embed/NN-9SQXoi50",
-      "steam_page": "https://store.steampowered.com/app/268910/Cuphead/"
+      "steam_page": "https://store.steampowered.com/app/268910/Cuphead/",
+      "synopsis": "A challenging run-and-gun game inspired by 1930s cartoons. Control Cuphead and Mugman as they face creative bosses to repay their debt to the devil. Hand-drawn animations and a jazz soundtrack create a unique aesthetic. Precision and quick reflexes are key to surviving this tough adventure."
     },
     {
       "id": 9,
@@ -133,7 +141,8 @@
       "aesthetic": ["pixel"],
       "genre": ["card", "strategy"],
       "preview": "https://www.youtube.com/embed/jp_XgQjgGNY",
-      "steam_page": "https://store.steampowered.com/app/646570/Slay_the_Spire/"
+      "steam_page": "https://store.steampowered.com/app/646570/Slay_the_Spire/",
+      "synopsis": "Combining deck-building and roguelike mechanics, ascend a tower full of dangers. Choose your hero, build your deck, and make strategic decisions in every encounter. Each run is unique thanks to randomized decks and unpredictable enemies. Perfect for fans of tactical challenges."
     },
     {
       "id": 10,
@@ -148,7 +157,8 @@
       "aesthetic": ["2D"],
       "genre": ["undefined"],
       "preview": "https://www.youtube.com/embed/NAhrOoNR4ng",
-      "steam_page": "https://store.steampowered.com/app/388880/Oxenfree/"
+      "steam_page": "https://store.steampowered.com/app/388880/Oxenfree/",
+      "synopsis": "A supernatural thriller where a group of friends accidentally open a ghostly rift. Navigate conversations and make choices that impact the story. The game’s unique dialogue system and eerie atmosphere set it apart. Explore an abandoned island filled with mysteries and unsettling secrets."
     },
     {
       "id": 11,
@@ -163,7 +173,8 @@
       "aesthetic": ["3D"],
       "genre": ["puzzle", "adventure"],
       "preview": "https://www.youtube.com/embed/ioxlKDOYOcM",
-      "steam_page": "https://store.steampowered.com/app/553420/TUNIC/"
+      "steam_page": "https://store.steampowered.com/app/553420/TUNIC/",
+      "synopsis": "Embark on an isometric action-adventure as a small fox exploring a mysterious world. Discover hidden paths, solve puzzles, and face challenging enemies. Inspired by classic Zelda games, it combines exploration with combat. The game’s charming visuals and cryptic lore invite curiosity."
     },
     {
       "id": 12,
@@ -178,7 +189,8 @@
       "aesthetic": ["3D"],
       "genre": ["puzzle"],
       "preview": "https://www.youtube.com/embed/ul7kNFD6noU",
-      "steam_page": "https://store.steampowered.com/app/210970/The_Witness/"
+      "steam_page": "https://store.steampowered.com/app/210970/The_Witness/",
+      "synopsis": "Explore a beautiful, mysterious island filled with intricate puzzles. Solve interconnected challenges that test your perception and logic. The open-world design encourages exploration and discovery at your own pace. A game that blends stunning visuals with thought-provoking puzzles."
     },
     {
       "id": 13,
@@ -193,7 +205,8 @@
       "aesthetic": ["atmospheric"],
       "genre": ["adventure"],
       "preview": "https://www.youtube.com/embed/Ie4izgUrUmw",
-      "steam_page": "https://store.steampowered.com/app/638230/Journey/"
+      "steam_page": "https://store.steampowered.com/app/638230/Journey/",
+      "synopsis": "Journey is a visually stunning adventure where you control a robed traveler crossing a vast desert towards a distant mountain. The game focuses on exploration and emotional connection, with a wordless narrative and seamless multiplayer interactions. Its breathtaking landscapes, combined with a moving soundtrack, create a meditative and unforgettable experience."
     },
     {
       "id": 14,
@@ -208,7 +221,8 @@
       "aesthetic": ["pixel", "unique"],
       "genre": ["metroidvania"],
       "preview": "https://www.youtube.com/embed/pyskUorhheg",
-      "steam_page": "https://store.steampowered.com/app/774361/Blasphemous/"
+      "steam_page": "https://store.steampowered.com/app/774361/Blasphemous/",
+      "synopsis": "Blasphemous is a brutal action-platformer set in a dark, gothic world inspired by Spanish folklore. Play as the Penitent One, a lone warrior on a quest to undo the curse that plagues the land. With challenging combat, intricate level design, and a rich, tragic narrative, the game combines brutal difficulty with stunning, hand-drawn art."
     },
     {
       "id": 15,
@@ -223,7 +237,8 @@
       "aesthetic": ["3D"],
       "genre": ["puzzle", "adventure"],
       "preview": "https://www.youtube.com/embed/ZKJUMMCJvGM",
-      "steam_page": "https://store.steampowered.com/app/753640/Outer_Wilds/"
+      "steam_page": "https://store.steampowered.com/app/753640/Outer_Wilds/",
+      "synopsis": "Outer Wilds is an open-world exploration game where you uncover the secrets of a solar system stuck in a time loop. Explore planets full of strange phenomena and ancient ruins, solving puzzles and piecing together a cosmic mystery. With a focus on curiosity and discovery, the game offers a unique blend of exploration, science fiction, and existential wonder."
     },
     {
       "id": 16,
@@ -238,7 +253,8 @@
       "aesthetic": ["cozy", "atmospheric"],
       "genre": ["simulation"],
       "preview": "https://www.youtube.com/embed/9HxPwQ4tjFc",
-      "steam_page": "https://store.steampowered.com/app/2198150/Tiny_Glade/"
+      "steam_page": "https://store.steampowered.com/app/2198150/Tiny_Glade/",
+      "synopsis": "Tiny Glade is a tranquil and atmospheric game where you cultivate a small garden in a peaceful, nature-filled environment. Explore a serene world, plant seeds, and nurture your garden to create a beautiful space. With relaxing gameplay and a focus on exploration and creativity, it’s the perfect escape into nature’s embrace."
     },
     {
       "id": 17,
@@ -253,7 +269,8 @@
       "aesthetic": ["pixel", "cozy"],
       "genre": ["rol"],
       "preview": "https://www.youtube.com/embed/ot7uXNQskhs",
-      "steam_page": "https://store.steampowered.com/app/413150/Stardew_Valley/"
+      "steam_page": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+      "synopsis": "Stardew Valley is a relaxing farming simulator where you inherit a rundown farm and work to restore it to its former glory. Grow crops, raise animals, and build relationships with the townspeople. Explore caves, gather resources, and take part in seasonal events. A heartwarming game that offers endless possibilities and personal growth."
     },
     {
       "id": 18,
@@ -268,7 +285,8 @@
       "aesthetic": ["2D", "atmospheric", "unique"],
       "genre": ["platform"],
       "preview": "https://www.youtube.com/embed/xtWnBHG6dis",
-      "steam_page": "https://store.steampowered.com/app/683320/GRIS/"
+      "steam_page": "https://store.steampowered.com/app/683320/GRIS/",
+      "synopsis": "Gris is a visually stunning platformer that explores themes of grief and emotional recovery. Guide Gris, a young woman, through a world brought to life with watercolor-inspired art and fluid animations. Solve puzzles and overcome obstacles that reflect her inner journey. The game combines beauty, art, and emotion in a seamless, poignant experience."
     },
     {
       "id": 19,
@@ -283,7 +301,8 @@
       "aesthetic": ["3D", "dark"],
       "genre": ["card", "horror"],
       "preview": "https://www.youtube.com/embed/70QOKsr27Po",
-      "steam_page": "https://store.steampowered.com/app/1092790/Inscryption/"
+      "steam_page": "https://store.steampowered.com/app/1092790/Inscryption/",
+      "synopsis": "Inscryption is a dark and twisted card game that combines elements of roguelikes and escape room puzzles. Navigate a mysterious cabin as you play against a sinister game master, unlocking cryptic secrets along the way. Each card game offers unique challenges and unexpected twists. A game that blends strategy, horror, and mystery into a truly unique experience."
     },
     {
       "id": 20,
@@ -298,7 +317,8 @@
       "aesthetic": ["fantasy", "atmospheric"],
       "genre": ["metroidvania", "adventure"],
       "preview": "https://www.youtube.com/embed/cklw-Yu3moE",
-      "steam_page": "https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/"
+      "steam_page": "https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/",
+      "synopsis": "Embark on a visually stunning adventure as Ori, a guardian spirit. Explore a vast, beautiful world filled with dangers, puzzles, and secrets. The fluid movement and combat system provide a thrilling experience. A heartfelt story about courage, friendship, and hope."
     },
     {
       "id": 21,
@@ -313,7 +333,8 @@
       "aesthetic": ["pixel", "strategy"],
       "genre": ["metroidvania"],
       "preview": "https://www.youtube.com/embed/qhB6dLh9nn4",
-      "steam_page": "https://store.steampowered.com/app/813230/ANIMAL_WELL/"
+      "steam_page": "https://store.steampowered.com/app/813230/ANIMAL_WELL/",
+      "synopsis": "Dive into a pixel art world full of secrets and mysteries to unravel. Explore an interconnected labyrinth with hidden paths and strange creatures. Solve puzzles and discover hidden tools to progress. A game that rewards curiosity and exploration."
     },
     {
       "id": 22,
@@ -328,7 +349,8 @@
       "aesthetic": ["pixel", "unique"],
       "genre": ["shooter"],
       "preview": "https://www.youtube.com/embed/mg5s5Dq50Rg",
-      "steam_page": "https://store.steampowered.com/app/219150/Hotline_Miami/"
+      "steam_page": "https://store.steampowered.com/app/219150/Hotline_Miami/",
+      "synopsis": "A brutal, top-down shooter set in a neon-soaked 80s Miami. Fast-paced combat and strategic planning are crucial as you take on masked enemies. The intense soundtrack and surreal story make for a memorable experience. A game that blends violence with a trippy narrative."
     },
     {
       "id": 23,
@@ -343,7 +365,8 @@
       "aesthetic": ["pixel"],
       "genre": ["survival"],
       "preview": "https://www.youtube.com/embed/qxvpJ1g54sY",
-      "steam_page": "https://store.steampowered.com/app/1262350/SIGNALS/"
+      "steam_page": "https://store.steampowered.com/app/1262350/SIGNALS/",
+      "synopsis": "A survival horror game inspired by classic sci-fi and psychological horror. Uncover the mysteries of an abandoned facility filled with nightmarish creatures. Solve puzzles, manage scarce resources, and survive in a chilling atmosphere. A story-driven experience with retro aesthetics."
     },
     {
       "id": 24,
@@ -358,7 +381,8 @@
       "aesthetic": ["pixel", "dark"],
       "genre": ["bullet-hell", "dungeon"],
       "preview": "https://www.youtube.com/embed/BiZ6mMlOF7c",
-      "steam_page": "https://store.steampowered.com/app/113200/The_Binding_of_Isaac/"
+      "steam_page": "https://store.steampowered.com/app/113200/The_Binding_of_Isaac/",
+      "synopsis": "A roguelike dungeon crawler where you guide Isaac through randomly generated levels. Fight grotesque enemies and collect bizarre power-ups to survive. Each run offers unique challenges and countless item combinations. Dark themes and replayability define this cult classic."
     },
     {
       "id": 25,
@@ -373,7 +397,8 @@
       "aesthetic": ["2D", "cutouts"],
       "genre": ["dungeon", "bullet-hell"],
       "preview": "https://www.youtube.com/embed/XlfGvPKPEiE",
-      "steam_page": "https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/"
+      "steam_page": "https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/",
+      "synopsis": "Lead your own cult in this dark yet charming action-adventure game. Gather followers, build your base, and battle rival cults. The game combines resource management with dungeon-crawling action. A blend of cute visuals and sinister themes."
     },
     {
       "id": 26,
@@ -388,7 +413,8 @@
       "aesthetic": ["dark", "gritty"],
       "genre": ["horror", "survival"],
       "preview": "https://www.youtube.com/embed/m5RB0Ej1mFg",
-      "steam_page": "https://store.steampowered.com/app/1966720/Lethal_Company/"
+      "steam_page": "https://store.steampowered.com/app/1966720/Lethal_Company/",
+      "synopsis": "A multiplayer horror game where you and your friends explore haunted locations. Work together to survive as you collect evidence and avoid deadly spirits. Each location offers randomized scares, making every playthrough unique. Teamwork and strategy are key to staying alive."
     },
     {
       "id": 27,
@@ -403,7 +429,8 @@
       "aesthetic": ["undefined"],
       "genre": ["card"],
       "preview": "https://www.youtube.com/embed/VUyP21iQ_-g",
-      "steam_page": "https://store.steampowered.com/app/2379780/Balatro/"
+      "steam_page": "https://store.steampowered.com/app/2379780/Balatro/",
+      "synopsis": "Balatro is a hypnotic and brilliant deck builder where you can play illegal poker hands, discover wildcards that will alter your gameplay, and trigger amazing combos that will pump up your adrenaline. Combine valid poker hands with exclusive wildcards to create diverse synergies and powerful decks. It's a game that rewards strategic thinking and quick decisions."
     },
     {
       "id": 28,
@@ -418,7 +445,8 @@
       "aesthetic": ["undefined"],
       "genre": ["survival"],
       "preview": "https://www.youtube.com/embed/Ly2P6powIjw",
-      "steam_page": "https://store.steampowered.com/app/892970/Valheim/"
+      "steam_page": "https://store.steampowered.com/app/892970/Valheim/",
+      "synopsis": "A survival game set in a vast Norse-inspired world. Gather resources, craft tools, and build your settlement as you battle mythological creatures. Explore procedurally generated biomes alone or with friends. A game that mixes exploration, combat, and building in a beautifully rendered world."
     },
     {
       "id": 29,
@@ -433,7 +461,8 @@
       "aesthetic": ["retro"],
       "genre": ["shooter", "platform"],
       "preview": "https://www.youtube.com/embed/lXiCFvaoVik",
-      "steam_page": "https://store.steampowered.com/app/1229490/ULTRAKILL/"
+      "steam_page": "https://store.steampowered.com/app/1229490/ULTRAKILL/",
+      "synopsis": "A fast-paced first-person shooter that combines retro aesthetics with modern mechanics. Rip through hordes of enemies with a variety of weapons and abilities. The game's fluid movement and intense action keep you on the edge of your seat. Perfect for fans of old-school shooters like Doom and Quake."
     },
     {
       "id": 30,
@@ -448,7 +477,8 @@
       "aesthetic": ["retro"],
       "genre": ["survival"],
       "preview": "https://www.youtube.com/embed/UMLwzt5t9bs",
-      "steam_page": "https://store.steampowered.com/app/361420/ASTRONEER/"
+      "steam_page": "https://store.steampowered.com/app/361420/ASTRONEER/",
+      "synopsis": "Explore and reshape distant planets in this sandbox adventure game. Gather resources, build bases, and terraform the environment. The game emphasizes creativity, exploration, and cooperation. A colorful and relaxing experience for players of all ages."
     },
     {
       "id": 31,
@@ -463,7 +493,8 @@
       "aesthetic": ["cozy", "atmospheric"],
       "genre": ["undefined"],
       "preview": "https://www.youtube.com/embed/l4bWwobx_LQ",
-      "steam_page": "https://store.steampowered.com/app/1055540/A_Short_Hike/"
+      "steam_page": "https://store.steampowered.com/app/1055540/A_Short_Hike/",
+      "synopsis": "Embark on a peaceful journey as a bird exploring a small, open-world island. Discover hidden treasures, meet quirky characters, and enjoy a relaxing hike. The game is full of charm and encourages exploration at your own pace. A short yet delightful experience that warms the heart."
     },
     {
       "id": 32,
@@ -478,7 +509,8 @@
       "aesthetic": ["undefined"],
       "genre": ["horror"],
       "preview": "https://www.youtube.com/embed/7mwn5U2PNvk",
-      "steam_page": "https://store.steampowered.com/app/242760/The_Forest/"
+      "steam_page": "https://store.steampowered.com/app/242760/The_Forest/",
+      "synopsis": "A survival horror game where you are stranded on a mysterious island after a plane crash. Gather resources, build shelters, and fend off terrifying cannibals. The open-world environment is filled with secrets to uncover. A blend of survival, horror, and exploration."
     },
     {
       "id": 33,
@@ -493,7 +525,8 @@
       "aesthetic": ["undefined"],
       "genre": ["adventure"],
       "preview": "https://www.youtube.com/embed/BtP8r8nRfko",
-      "steam_page": "https://store.steampowered.com/app/264710/Subnautica/"
+      "steam_page": "https://store.steampowered.com/app/264710/Subnautica/",
+      "synopsis": "Dive into an alien ocean world and explore its depths. Gather resources, craft equipment, and survive the dangers lurking beneath. The game's stunning underwater environments encourage exploration and discovery. A thrilling adventure filled with mystery and wonder."
     },
     {
       "id": 34,
@@ -508,7 +541,8 @@
       "aesthetic": ["pixel"],
       "genre": ["undefined"],
       "preview": "https://www.youtube.com/embed/w7uOhFTrrq0",
-      "steam_page": "https://store.steampowered.com/app/105600/Terraria/"
+      "steam_page": "https://store.steampowered.com/app/105600/Terraria/",
+      "synopsis": "A sandbox adventure game with infinite possibilities. Dig, fight, explore, and build in a procedurally generated 2D world. The game combines crafting, combat, and exploration for endless fun. A classic title beloved by fans of the genre."
     },
     {
       "id": 35,
@@ -523,7 +557,8 @@
       "aesthetic": ["undefined"],
       "genre": ["adventure", "survival"],
       "preview": "https://www.youtube.com/embed/P-w1XzWQs9E",
-      "steam_page": "https://store.steampowered.com/app/1933840/Moon_Mystery/"
+      "steam_page": "https://store.steampowered.com/app/1933840/Moon_Mystery/",
+      "synopsis": "An RPG that focuses on deep narrative and complex character development. Play as a detective solving a murder in a decaying city. Your choices shape the story, with rich dialogue and a unique skill system. A critically acclaimed game praised for its writing and storytelling."
     },
     {
       "id": 36,
@@ -538,7 +573,8 @@
       "aesthetic": ["unique"],
       "genre": ["rol"],
       "preview": "https://www.youtube.com/embed/P-UY6IyI03Q",
-      "steam_page": "https://store.steampowered.com/app/632470/Disco_Elysium/"
+      "steam_page": "https://store.steampowered.com/app/632470/Disco_Elysium/",
+      "synopsis": "A survival game set in a dark and whimsical world. Gather resources, craft tools, and fend off strange creatures. The game’s hand-drawn art and eerie atmosphere make for a unique experience. Survive as long as you can in this unforgiving wilderness."
     },
     {
       "id": 37,
@@ -553,7 +589,8 @@
       "aesthetic": ["dark"],
       "genre": ["horror", "survival"],
       "preview": "https://www.youtube.com/embed/s6Mi29yJE44",
-      "steam_page": "https://store.steampowered.com/app/274520/Darkwood/"
+      "steam_page": "https://store.steampowered.com/app/274520/Darkwood/",
+      "synopsis": "A top-down survival horror game with a focus on atmosphere and storytelling. Explore a creepy, procedurally generated forest filled with terrifying creatures. Craft, scavenge, and survive the night while uncovering the game's dark secrets. An unsettling experience that keeps you on edge."
     },
     {
       "id": 38,
@@ -568,7 +605,8 @@
       "aesthetic": ["pixel", "atmospheric"],
       "genre": ["platform", "survival"],
       "preview": "https://www.youtube.com/embed/kxbQy0U92R4",
-      "steam_page": "https://store.steampowered.com/app/312520/Rain_World/"
+      "steam_page": "https://store.steampowered.com/app/312520/Rain_World/",
+      "synopsis": "Play as a slugcat navigating a harsh, unforgiving ecosystem. The game features fluid movement and a world where every creature is a threat. Survive by hunting, hiding, and using your wit. A challenging platformer that emphasizes exploration and survival."
     },
     {
       "id": 39,
@@ -583,7 +621,8 @@
       "aesthetic": ["cutouts"],
       "genre": ["rol"],
       "preview": "https://www.youtube.com/embed/OfYryKWkNfw",
-      "steam_page": "https://store.steampowered.com/app/1205520/Pentiment/"
+      "steam_page": "https://store.steampowered.com/app/1205520/Pentiment/",
+      "synopsis": "A narrative-driven adventure set in 16th-century Bavaria. Solve mysteries and uncover secrets in a richly detailed world. The game's unique art style is inspired by medieval manuscripts. A story of intrigue, art, and history."
     },
     {
       "id": 40,
@@ -598,7 +637,8 @@
       "aesthetic": ["fantasy", "dark", "atmospheric", "unique"],
       "genre": ["adventure", "puzzle"],
       "preview": "https://www.youtube.com/embed/6TwolC-YT2Y",
-      "steam_page": "https://store.steampowered.com/app/2420660/Neva/"
+      "steam_page": "https://store.steampowered.com/app/2420660/Neva/",
+      "synopsis": "An atmospheric adventure game with hand-drawn art. Follow the journey of Alba and her wolf companion as they explore a mystical world. Solve puzzles and uncover the secrets of a forgotten land. A tale of friendship, courage, and discovery."
     },
     {
       "id": 29,
@@ -613,7 +653,8 @@
       "aesthetic": ["cutouts", "Hand-drawn", "Dark"],
       "genre": ["survival", "roguelike"],
       "preview": "https://www.youtube.com/embed/xOlqQwOzNGo",
-      "steam_page": "https://store.steampowered.com/app/219740/Dont_Starve/"
+      "steam_page": "https://store.steampowered.com/app/219740/Dont_Starve/",
+      "synopsis": "A survival game set in a dark and whimsical world. Gather resources, craft tools, and fend off strange creatures while managing hunger, sanity, and health. The game's hand-drawn art and eerie atmosphere create a unique and challenging experience. Survive as long as you can in this unforgiving wilderness filled with danger and mystery."
     }
   ]
 }
