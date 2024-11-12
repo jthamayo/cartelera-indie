@@ -6,6 +6,9 @@ export function loadHomePage(games) {
     const catalogPage = document.getElementById("catalog");
     homePage.setAttribute("class", "nav-link active");
     catalogPage.setAttribute("class", "nav-link");
+    
+    let searchInput = document.getElementById("searchInput");
+    searchInput.value = "";
 
     //-------------------------load-main-content------------------------------
     main.innerHTML = `<section id="new-releases" class="pt-2 mt-5"></section>`;
@@ -113,7 +116,7 @@ function createThematicSection(themeArr, container) {
     container.innerHTML += `<section id='${theme}-games' class='py-5 my-5 rounded-4'></section>`;
     document.getElementById(
       `${theme}-games`
-    ).innerHTML += `<div class="text-center pb-3"><h2 class="fs-1 fw-bold text-capitalize">${theme} Games</h2><h3 class="text-secondary">Explore the World of <span class="text-capitalize">${theme}</span> Games</h3></div>`;
+    ).innerHTML += `<div class="text-center pb-3"><h2 class="fs-1 fw-bold text-capitalize">${theme==="cutouts"? "cutout-style" : theme} Games</h2><h3 class="text-secondary">Explore the World of <span class="text-capitalize">${theme==="cutouts"? "cutout-style" : theme}</span> Games</h3></div>`;
   });
 }
 
@@ -157,7 +160,7 @@ function generateThematicCards(thematicArr) {
       <img src="${game.poster}" class="card-img-top position-relative" alt="${game.title} card">
       <div class="card-body">
       <h5 class="card-title text-uppercase">${game.title}</h5>
-      <p class="card-title text-secondary">${game.year} . developer: ${game.developer} . gameplay: ${game.length}</p>
+      <p class="card-title text-secondary">${game.year} . ${game.developer} . gameplay: ${game.length}</p>
       <a href="${game.steam_page}" target="_blank" rel="noopener noreferrer" class="btn text-light m-2 position-absolute top-0 d-flex justify-content-center align-items-center gap-2"
             ><p class="d-inline-block m-0">explore</p><i class="fa-brands fa-steam fs-4"></i></a
             ></a>
