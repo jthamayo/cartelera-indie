@@ -74,9 +74,9 @@ function handleClickEvent(game){
   document.getElementById('modal-link').href = game.steam_page;
   document.getElementById('modal-synopsis').textContent = game.synopsis;
   document.getElementById('modal-genre').textContent = game.genre.join(", ");
-  document.getElementById('modal-features').textContent = game.aesthetic.join(", ");
+  document.getElementById('modal-features').textContent = `rating: ${game.rating} length: ${game.length} revenue: ${game.revenue}`;
   let idVid =game.preview.split("/embed/")[1].split("?")[0];
-  document.getElementById('modal-video').src = `${game.preview}?&rel=0&controls=0&start=41&autoplay=1&mute=1&loop=1&playlist=${idVid}`;
+  document.getElementById('modal-video').src = `${game.preview}?&rel=0&autoplay=1&mute=1&loop=1&playlist=${idVid}`;
 
   const gameModal = document.getElementById('expanded-card');
   if (gameModal) {
@@ -104,8 +104,8 @@ function showPreviewOnHover(cards) {
         const videoID = url.split("/embed/")[1].split("?")[0];
         const videoControls = `?&rel=0&controls=0&start=41&autoplay=1&mute=1&loop=1&playlist=${videoID}`;
         let iframeString = `<iframe class="video-preview px-2 position-absolute top-0 start-0" width="100%" height="100%" 
-        src="${url + videoControls}" frameborder="0" allow="accelerometer; 
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+        src="${url + videoControls}" frameborder="0"; 
+        clipboard-write;" referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
         card.innerHTML += iframeString;
       }
     });

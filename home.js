@@ -35,7 +35,7 @@ function loadFrontPageFeatured(sectionID, obj) {
 }
 
 function createFrontPageFeatured(obj) {
-  return `<div id="featuredcarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  return `<div id="featuredcarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="700">
   <div class="carousel-inner">`.concat(
     wrapFeaturedInCarouselItem(latestReleased(obj)).join(" "),
     `</div></div>`
@@ -58,13 +58,15 @@ function wrapFeaturedInCarouselItem(featuredArr) {
         game.title
       } videopreview" src="${
       game.preview + videoControls
-    }" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    }" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       <div class="carousel-caption h-100 d-none d-md-block">
       <h5 class="display-1 z-3 position-absolute top-50 start-0 z-3">${game.title}</h5>
-      <p class="display-5 z-3 position-absolute bottom-50 start-0 z-3">new release</p>
+      <div class="display-5 z-3 position-absolute bottom-50 start-0 z-3 d-flex gap-2 align-items-center"><i class="fa-solid fa-fire fs-1"></i><p>new release</p></div>
       <a href="${
         game.steam_page
-      }" target="_blank" rel="noopener noreferrer" class="btn text-bg-dark text-capitalize fs-5 border-0 m-3 px-4 position-absolute bottom-0 end-0 z-3">now available on steam</a>
+      }" target="_blank" rel="noopener noreferrer" class="btn text-bg-dark text-capitalize fs-5 border-0 m-3 px-4 position-absolute bottom-0 end-0 z-3 d-flex justify-content-center align-items-center gap-2"
+            ><p class="d-inline-block m-0">now available on steam</p><i class="fa-brands fa-steam fs-4"></i></a
+            ></a>
       </div>
     </div>`;
   });
@@ -73,7 +75,7 @@ function wrapFeaturedInCarouselItem(featuredArr) {
 ///////////////////////////////////////////////////////////////////THEMED-CARDS//////////////////////////////////////////////////////////////////////////////
 
 function loadThematicCards(obj, main) {
-  main.innerHTML += `<div id="thematicSection" class="container px-1 my-5"><h1>Discover your new favourite Game</h1></div>`;
+  main.innerHTML += `<div id="thematicSection" class="container px-1 my-5"><h1>Discover your new favorite Game</h1></div>`;
   document.getElementById(
     `thematicSection`
   ).innerHTML += `<div id="games-aesthetic"></div><div id="games-genre"></div>`;
@@ -111,7 +113,7 @@ function createThematicSection(themeArr, container) {
     container.innerHTML += `<section id='${theme}-games' class='py-5 my-5 rounded-4'></section>`;
     document.getElementById(
       `${theme}-games`
-    ).innerHTML += `<div class="text-center pb-3"><h2 class="fs-1 fw-bold text-capitalize">${theme} Games</h2><h3 class="text-secondary">Explore the World of ${theme} Games</h3></div>`;
+    ).innerHTML += `<div class="text-center pb-3"><h2 class="fs-1 fw-bold text-capitalize">${theme} Games</h2><h3 class="text-secondary">Explore the World of <span class="text-capitalize">${theme}</span> Games</h3></div>`;
   });
 }
 
@@ -155,8 +157,10 @@ function generateThematicCards(thematicArr) {
       <img src="${game.poster}" class="card-img-top position-relative" alt="${game.title} card">
       <div class="card-body">
       <h5 class="card-title text-uppercase">${game.title}</h5>
-      <p class="card-title text-secondary">${game.release} . ${game.length} . developed by ${game.developer}</p>
-      <a href="${game.steam_page}" target="_blank" rel="noopener noreferrer" class="btn text-light m-2 position-absolute top-0 end-0">explore</a>
+      <p class="card-title text-secondary">${game.year} . developer: ${game.developer} . gameplay: ${game.length}</p>
+      <a href="${game.steam_page}" target="_blank" rel="noopener noreferrer" class="btn text-light m-2 position-absolute top-0 d-flex justify-content-center align-items-center gap-2"
+            ><p class="d-inline-block m-0">explore</p><i class="fa-brands fa-steam fs-4"></i></a
+            ></a>
       </div>
       </div>
       </div>`);
