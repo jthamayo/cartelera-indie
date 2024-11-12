@@ -19,7 +19,7 @@ export function loadHomePage(games) {
 
     //-------------------------configure-carousel-behavior-------------------------
     const featuredCarousel = new bootstrap.Carousel("#featuredcarousel", {
-      interval: 10000,
+      interval: 8000,
       ride: "carousel",
       pause: "hover",
     });
@@ -38,7 +38,7 @@ function loadFrontPageFeatured(sectionID, obj) {
 }
 
 function createFrontPageFeatured(obj) {
-  return `<div id="featuredcarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="700">
+  return `<div id="featuredcarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="">
   <div class="carousel-inner">`.concat(
     wrapFeaturedInCarouselItem(latestReleased(obj)).join(" "),
     `</div></div>`
@@ -49,13 +49,11 @@ function wrapFeaturedInCarouselItem(featuredArr) {
   return featuredArr.map((game, index) => {
     let isActive = index === 0 ? "active" : "";
     let gameId = game.preview.split("/embed/")[1].split("?")[0];
-    const videoControls = `?rel=0&controls=0&start=41&autoplay=1&mute=1&loop=1&playlist=${gameId}`;
+    const videoControls = `?rel=0&controls=0&start=41&autoplay=1&mute=1&cc_lang_pref=en&hl=en&loop=1&playlist=${gameId}`;
     return `<div class="carousel-item ${isActive}">
       <div class="position-relative">
       <div class="dark-film z-2"></div>
-      <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2420660/ss_62a1d600f868ac02023335d29a4c744f71fc4f97.1920x1080.jpg?t=1729124829" class="d-block w-75 position-relative" alt="${
-        game.title
-      } featured">
+      <img src="images/black.png" class="d-block w-75 position-relative" alt="background" featured">
       </div>
       <iframe class="video-preview px-2 position-absolute top-0 start-0" width="100%" height="100%" alt="${
         game.title
