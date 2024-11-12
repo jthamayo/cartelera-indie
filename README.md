@@ -9,6 +9,11 @@ Users can browse a catalog of hand-picked titles, each with detailed information
 The platform aims to celebrate and amplify the work of indie game creators, showcasing the unique experiences and creative visuals that indie games contribute to the gaming world.
 
 ## Screenshots
+![Home Page Screenshot](images\featured2.jpg)
+![Discover Section Screenshot](images\discover-section.jpg)
+![Discover Section Screenshot](images\discover2-section.jpg)
+![Game Catalog Screenshot](images\catalog.jpg)
+![Card Modal Screenshot](images\modal.jpg)
 
 ## Key Features
 
