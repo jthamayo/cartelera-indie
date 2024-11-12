@@ -4,9 +4,11 @@
 
 This project is an interactive platform dedicated to showcasing the creative diversity of indie video games. The site provides a curated space where users can discover, explore, and learn about unique indie games across various genres and styles.
 
-Users can browse a catalog of hand-picked titles, each with detailed information such as game synopsis, developer, release year, and genre. Interactive elements, including game previews and hover effects, make it easy to get a feel for each game before diving deeper. A filtering feature also allows users to search titles by developer, publisher, or genre, ensuring that they can quickly find games that align with their tastes.
+Users can browse a catalog of hand-picked titles, each with detailed information such as game synopsis, developer, release year, and genre. A filtering feature also allows users to search titles by developer, publisher, or genre, ensuring that they can quickly find games that align with their tastes.
 
 The platform aims to celebrate and amplify the work of indie game creators, showcasing the unique experiences and creative visuals that indie games contribute to the gaming world.
+
+## Screenshots
 
 ## Key Features
 
