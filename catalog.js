@@ -68,7 +68,7 @@ function createCards(obj) {
 
 //////////////////////////////////////CLICK-EVENT//////////////////////////////////////////////////
 
-function handleClickEvent(game){
+export function handleClickEvent(game){
   document.getElementById('expanded-card-label').textContent = `${game.title}, ${game.year}`;
   document.getElementById('modal-description').textContent = `developed by ${game.developer} and published by ${game.publisher}`;
   document.getElementById('modal-img').src = game.poster;
@@ -89,7 +89,7 @@ function handleClickEvent(game){
 
 ///////////////////////////////////////HOVER-EVENT///////////////////////////////////////////////
 
-function handleHoverEvent(cards) {
+export function handleHoverEvent(cards) {
   //TODO: add animations
   showPreviewOnHover(cards);
 }

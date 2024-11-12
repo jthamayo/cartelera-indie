@@ -1,4 +1,3 @@
-import { showFilteredGames } from "./filter.js";
 import { loadHomePage } from "./home.js";
 
 const requestURL = "../json/indie-games.json";

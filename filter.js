@@ -1,3 +1,5 @@
+import { handleClickEvent, handleHoverEvent } from "./catalog.js";
+
 export function showFilteredGames(games, filter) {
   const main = document.getElementById("main-page");
   if (main) {
@@ -5,6 +7,8 @@ export function showFilteredGames(games, filter) {
     main.innerHTML = `<div id="gamesSection" class="container"></div>`;
     let filteredCards = filterCards(games, filter);
     createFilteredCards(filteredCards);
+    let cards = document.getElementsByClassName("card");
+    handleHoverEvent(cards);
   }
 }
 
@@ -30,10 +34,12 @@ function createFilteredCards(filteredArr) {
   let row = document.createElement("div");
   row.setAttribute("class", "row row-cols-1 row-cols-md-3");
   filteredArr.forEach((game, index) => {
-
     let card = document.createElement("div");
     card.setAttribute("id", `card-${game.id}`);
-    card.setAttribute("class", `card col mb-4 border-0 bg-dark position-relative`);
+    card.setAttribute(
+      "class",
+      `card col mb-4 border-0 bg-dark position-relative`
+    );
     card.setAttribute("data-preview", `${game.preview || "undefined"}`);
 
     let poster = document.createElement("img");
@@ -43,7 +49,7 @@ function createFilteredCards(filteredArr) {
 
     card.appendChild(poster);
 
-    card.addEventListener('click', () => {
+    card.addEventListener("click", () => {
       handleClickEvent(game);
     });
 
@@ -54,6 +60,5 @@ function createFilteredCards(filteredArr) {
       row = document.createElement("div");
       row.setAttribute("class", "row row-cols-1 row-cols-md-3");
     }
-
   });
 }
