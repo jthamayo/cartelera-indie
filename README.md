@@ -10,10 +10,10 @@ The platform aims to celebrate and amplify the work of indie game creators, show
 
 ## Screenshots
 ![Home Page Screenshot](images\featured2.jpg)
-![Discover Section Screenshot](images\discover-section.jpg)
-![Discover Section Screenshot](images\discover2-section.jpg)
-![Game Catalog Screenshot](images\catalog.jpg)
-![Card Modal Screenshot](images\modal.jpg)
+![Discover Section Screenshot](images/discover-section.jpg)
+![Discover Section Screenshot](images/discover2-section.jpg)
+![Game Catalog Screenshot](images/catalog.jpg)
+![Card Modal Screenshot](images/modal.jpg)
 
 ## Key Features
 
