@@ -70,12 +70,12 @@ function createCards(obj) {
 
 export function handleClickEvent(game){
   document.getElementById('expanded-card-label').textContent = `${game.title}, ${game.year}`;
-  document.getElementById('modal-description').textContent = `developed by ${game.developer} and published by ${game.publisher}`;
+  document.getElementById('modal-description').textContent = `Developed by ${game.developer} and Published by ${game.publisher}`;
   document.getElementById('modal-img').src = game.poster;
   document.getElementById('modal-link').href = game.steam_page;
   document.getElementById('modal-synopsis').textContent = game.synopsis;
   document.getElementById('modal-genre').textContent = game.genre.join(", ");
-  document.getElementById('modal-features').textContent = `rating: ${game.rating} length: ${game.length} revenue: ${game.revenue}`;
+  document.getElementById('modal-features').textContent = `rating: ${game.rating} . length: ${game.length} . revenue: ${game.revenue}`;
   let idVid =game.preview.split("/embed/")[1].split("?")[0];
   document.getElementById('modal-video').src = `${game.preview}?&rel=0&autoplay=1&mute=1&loop=1&playlist=${idVid}`;
 
