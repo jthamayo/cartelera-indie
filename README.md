@@ -1,34 +1,32 @@
 # Indie Games - The Indie Game Discovery Hub
 
-### Description
+## Description
 
-This project is an interactive platform dedicated to showcasing the creative diversity of indie video games. Designed with a focus on accessibility and engagement, the site provides a curated space where users can discover, explore, and learn about unique indie games across various genres and styles. This platform showcases the unique experiences and creative visuals that indie games contribute to the gaming world.
+This project is an interactive platform dedicated to showcasing the creative diversity of indie video games. The site provides a curated space where users can discover, explore, and learn about unique indie games across various genres and styles.
 
 Users can browse a catalog of hand-picked titles, each with detailed information such as game synopsis, developer, release year, and genre. Interactive elements, including game previews and hover effects, make it easy to get a feel for each game before diving deeper. A filtering feature also allows users to search titles by developer, publisher, or genre, ensuring that they can quickly find games that align with their tastes.
 
-The platform aims to celebrate and amplify the work of indie game creators, offering gamers a centralized hub for discovering the latest releases, as well as classic indie titles that have left a mark on the industry.
+The platform aims to celebrate and amplify the work of indie game creators, showcasing the unique experiences and creative visuals that indie games contribute to the gaming world.
 
 ## Key Features
 
 ### Home Page
 
-- **Recent Releases**: An ever-updating section displaying the newest additions to the catalog, helping users stay on top of the latest game launches.
-- **Featured Games**: Discover themed game collections presented in a sleek Bootstrap carousel, with cards that group titles by genre or style. This setup offers users a better experience, allowing them to effortlessly explore curated selections of games in a visually engaging way.
+- **Recent Releases**: Display of the latest game launches.
+- **Featured Games**: Discover themed game collections presented in a Bootstrap carousel grouped by genre or style.
 
 ### Game Catalog
 
-- **Comprehensive Collection**: Dive into the full library of games available on Game Nexus. The catalog page offers a sleek, grid-based layout.
-- **Gameplay Preview**, each game is showcased with an interactive hover effect that enhances the browsing experience. As you hover over any game title, you'll get a sneak peek into its gameplay through a dynamic preview, offering a glimpse of the game's mechanics, art style, and overall vibe.
+- **Comprehensive Collection**: The catalog page offers a sleek, grid-based layout.
+- **Gameplay Preview**: each game is showcased with an interactive hover effect offering a glimpse of the game's mechanics, art style, and overall vibe.
 - **Detailed Game Pages**: Click on any game to access an in-depth page featuring:
-  - **Cover Image & Trailer**: Visuals that bring the game to life.
-  - **Game Info**: Title, Developer, Publisher, Release Year and Revenue information.
-  - **Genres & Tags**: Helps users find similar games based on their interests.
+  - **Game Info**: Title, Developer, Publisher, Genre, Release Year and Revenue information.
   - **Game Synopsis**: A brief description that captures the essence of the game.
   - **Direct Steam Access**: Each game page includes a convenient button that takes you directly to the game's Steam page.
 
 ### Filter Feature
 
-- **Refined Search Options**: Quickly locate specific games with a robust filter feature. From any page, users can search by:
+- **Search Options**: Quickly locate specific games with a robust filter feature. From any page, users can search by:
   - **Developer**: Discover all games made by a particular developer.
   - **Publisher**: Filter games based on publishing studios.
   - **Name**: Directly locate any game by its title for immediate access.
@@ -62,9 +60,9 @@ The application’s data is loaded from a structured JSON file, where each game�
 
 ## Tech Stack
 
-- **HTML5**: Establishes the foundational structure of the website, including essential elements like the header and footer.
-- **JavaScript**: Manages the website’s dynamic main content and interactive features, handling hover effects, click events, and filter functionality for an engaging user experience.
-- **Bootstrap Library**: Simplifies the layout and component design, enhancing responsiveness through built-in features like cards, modals, navigation bars, and carousels.
+- **HTML5**
+- **JavaScript**: Generates dynamic main content and handles hover effects, click events, and filter functionality.
+- **Bootstrap Library**: Component design and responsiveness through built-in features like cards, modals, navigation bars, and carousels.
 - **CSS3**: Adds custom animations, transitions, and gradients to refine and personalize the Bootstrap design.
 
 ## Next Steps
