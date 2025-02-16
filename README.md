@@ -2,6 +2,7 @@
 
 ## Description
 
+[Preview](https://cartelera-indie.vercel.app/) - 
 This project is an interactive platform dedicated to showcasing the creative diversity of indie video games. The site provides a curated space where users can discover, explore, and learn about unique indie games across various genres and styles.
 
 Users can browse a catalog of hand-picked titles, each with detailed information such as game synopsis, developer, release year, and genre. A filtering feature also allows users to search titles by developer, publisher, or genre, ensuring that they can quickly find games that align with their tastes.
